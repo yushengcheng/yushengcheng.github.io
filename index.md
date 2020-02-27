@@ -17,11 +17,7 @@ ysc_nju@outlook.com
 
 # Education Experience
 
-![a](https://raw.githubusercontent.com/YSC9848/YSC9848.github.io/tree/master/img/NJU.img)
-
-![b](https://github.com/YSC9848/YSC9848.github.io/raw/master/img/NJU.img)
-
-![c](https://github.com/YSC9848/YSC9848.github.io/blob/master/img/NJU.jpg)
+![a]({{site.baseurl}}/img/NJU.jpg)
 
 ### Nanjing University, Software Institute
 - Ph.D. Candidate in Software Engineering

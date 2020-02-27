@@ -15,13 +15,9 @@ ysc_nju@outlook.com
 
  * * * 
 
-# Family Member
-
-- Deeply Beloved Wife: Xiaoyue Shi
-
- * * *
-
 # Education Experience
+
+![NJU]({{site.baseurl}}/img/NJU.png)
 
 ### Nanjing University, Software Institute
 - Ph.D. Candidate in Software Engineering
@@ -59,17 +55,17 @@ To Be Added
 
 - Tianxing He, **Shengcheng Yu**, Ziyuan Wang, Jieqiong L, Zhenyu Chen. From Data Quality to Model Quality: an Exploratory Study on Deep Learning. Internetware 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3361242.3361260)
 
-- Yuanhan Tian, Shengcheng Yu, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. [paper]()
+- Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. [paper]()
 
  * * * 
 
 # Patent
 
-- A method for cross-platform replay of mobile testing script based of image recognition. Chunrong Fang, Yuanhan Tian, Shengcheng Yu, Qiuting Li, Pin Ji.
-	- 一种基于图像识别的跨平台脚本录制与回放方法. 房春荣, 田元汉, 虞圣呈, 李秋婷, 吉品.
+- A method for cross-platform replay of mobile testing script based of image recognition. Chunrong Fang, Yuanhan Tian, **Shengcheng Yu**, Qiuting Li, Pin Ji.
+	- 一种基于图像识别的跨平台脚本录制与回放方法. 房春荣, 田元汉, **虞圣呈**, 李秋婷, 吉品.
 
-- A method for online analysis of crash information for Android applications. Chunrong Fang, Yuanhan Tian, Shengcheng Yu, Wenyuan Zhao, Zhenyu Chen.
-	- 一种面向安卓应用的崩溃信息线上分析方法. 房春荣, 田元汉, 虞圣呈, 赵文远, 陈振宇.
+- A method for online analysis of crash information for Android applications. Chunrong Fang, Yuanhan Tian, **Shengcheng Yu**, Wenyuan Zhao, Zhenyu Chen.
+	- 一种面向安卓应用的崩溃信息线上分析方法. 房春荣, 田元汉, **虞圣呈**, 赵文远, 陈振宇.
 
  * * * 
 

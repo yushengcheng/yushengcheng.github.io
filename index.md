@@ -2,7 +2,7 @@
 
 An undergraduate student of Software Institute, Nanjing University
 
-Student of [iSE Lab](www.iselab.cn)
+Student of [iSE Lab](http://www.iselab.cn)
 
 Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChen) & _Research Assistant_ [_Chunrong Fang_](http://www.iselab.cn/faculty/ChunrongFang)
 

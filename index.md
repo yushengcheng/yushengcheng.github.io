@@ -21,6 +21,8 @@ ysc_nju@outlook.com
 
 ![b](https://github.com/YSC9848/YSC9848.github.io/raw/master/img/NJU.img)
 
+![c](https://github.com/YSC9848/YSC9848.github.io/blob/master/img/NJU.jpg)
+
 ### Nanjing University, Software Institute
 - Ph.D. Candidate in Software Engineering
 > Sep 2020 - Now

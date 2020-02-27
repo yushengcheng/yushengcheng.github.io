@@ -19,6 +19,8 @@ ysc_nju@outlook.com
 
 ![NJU]({{site.baseurl}}/img/NJU.png)
 
+<img src="{{site.baseurl}}/img/NJU.png" width = "100" alt="NJU" align=center />
+
 ### Nanjing University, Software Institute
 - Ph.D. Candidate in Software Engineering
 > Sep 2020 - Now

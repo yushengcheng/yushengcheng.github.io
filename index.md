@@ -17,7 +17,7 @@ ysc_nju@outlook.com
 
 # Education Experience
 
-![a](https://raw.githubusercontent.com/YSC9848/YSC9848.github.io/master/img/NJU.img)
+![a](https://raw.githubusercontent.com/YSC9848/YSC9848.github.io/tree/master/img/NJU.img)
 
 ![b](https://github.com/YSC9848/YSC9848.github.io/tree/master/img/NJU.img)
 

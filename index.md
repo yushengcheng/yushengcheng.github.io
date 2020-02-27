@@ -15,9 +15,13 @@ ysc_nju@outlook.com
 
  * * * 
 
-# Education Experience
+# Family Member
 
-![a]({{site.baseurl}}/img/NJU.png)
+- Xiaoyue Shi
+
+ * * *
+
+# Education Experience
 
 ### Nanjing University, Software Institute
 - Ph.D. Candidate in Software Engineering

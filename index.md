@@ -59,6 +59,22 @@ To Be Added
 
  * * * 
 
+# Tool
+
+- LIRAT: Layout and Layout and Image Recognition Driving Automated Mobile Testing of Cross-Platform
+	- Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
+	- [Link](https://github.com/YSC9848/LIRAT)
+
+- FuRong: FuRong: Fusing Report of Automated Android Testing on Multi-Devices
+	- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI ZhenfeiCao@NJU, XuWang@NJU
+	- To be open-sourced
+
+- iCTBRG: Intelligent Crowdsourced Testing Bug Report Generation
+	- Cooperator: YexiaoYun@NJU
+	- To be open-sourced
+
+ * * *
+
 # Patent
 
 - A method for cross-platform replay of mobile testing script based of image recognition. Chunrong Fang, Yuanhan Tian, **Shengcheng Yu**, Qiuting Li, Pin Ji.
@@ -74,3 +90,7 @@ To Be Added
 * Interested in classic music
 	* like playing French Horn
 	* Member of Nanjing University Symphony Orchestra
+
+```
+Last Updated: 2020-02-28
+```

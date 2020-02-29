@@ -6,12 +6,12 @@ Student of [iSE Lab](http://www.iselab.cn)
 
 Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChen) & _Research Assistant_ [_Chunrong Fang_](http://www.iselab.cn/faculty/ChunrongFang)
 
-Research Interest: Software Testing, Mobile Application Testing, Crowdsourced testing， Deep Learning
+Research Interest: Software Testing, Mobile Application Testing, Crowdsourced testing, Deep Learning
 
 ### Contact
-ysc@smail.nju.edu.cn
+- ysc@smail.nju.edu.cn
 
-ysc_nju@outlook.com
+- ysc_nju@outlook.com
 
  * * * 
 
@@ -20,22 +20,26 @@ ysc_nju@outlook.com
 ![NJU]({{site.baseurl}}/img/NJU.jpg)
 
 ### Nanjing University, Software Institute
+
 - Ph.D. Candidate in Software Engineering
-> Sep 2020 - Now
->
-> Recommended Test-Free
+
+	> Sep 2020 - Now
+	>
+	> Recommended Test-Free
 
 ### Nanjing University, Software Institute
+
 - B.Eng. in Software Engineering
-> Sep 2016 - Jul 2020
->
-> 2018-2019 Renmin Scholarship
->
-> 2017-2018 Renmin Scholarship
->
-> 2016-2017 Renmin Scholarship
->
-> Nanjing University - Linkage Leadership Scholarship
+
+	> Sep 2016 - Jul 2020
+	>
+	> 2018-2019 Renmin Scholarship
+	>
+	> 2017-2018 Renmin Scholarship
+	>
+	> 2016-2017 Renmin Scholarship
+	>
+	> Nanjing University - Linkage Leadership Scholarship
 
  * * * 
 
@@ -66,7 +70,7 @@ To Be Added
 	- [Link](https://github.com/YSC9848/LIRAT)
 
 - FuRong: FuRong: Fusing Report of Automated Android Testing on Multi-Devices
-	- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI ZhenfeiCao@NJU, XuWang@NJU
+	- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
 	- To be open-sourced
 
 - iCTBRG: Intelligent Crowdsourced Testing Bug Report Generation
@@ -92,5 +96,5 @@ To Be Added
 	* Member of Nanjing University Symphony Orchestra
 
 ```
-Last Updated: 2020-02-28
+Last Updated: 2020-02-29
 ```

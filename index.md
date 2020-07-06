@@ -58,7 +58,9 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 - Nanjing University Training Program of Innovation for Undergraduates (202010284073Z)
 
   - Mobile Application Testing Research Based on Image Understanding
+
   - Program Leader
+
   - National Level
 
 - National Key R&D Program of China (2018YFB1403400)
@@ -83,7 +85,8 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 
 ## 2020
 
-- Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. Co-First Author. [paper]()
+- Zhenfei Cao, Xu Wang, **Shengcheng Yu**, Yexiao Yun, Chunrong Fang. STIFA: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis. ASE 2020 Demo. *Accepted*
+- Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. Co-First Author. *Accepted*
 
 ## 2019
 

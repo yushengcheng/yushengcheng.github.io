@@ -122,12 +122,12 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 # Patent
 
 - A method for cross-platform replay of mobile testing script based of image recognition. Chunrong Fang, Yuanhan Tian, **Shengcheng Yu**, Qiuting Li, Pin Ji.
-- 一种基于图像识别的跨平台脚本录制与回放方法. 房春荣, 田元汉, **虞圣呈**, 李秋婷, 吉品.
+  - 一种基于图像识别的跨平台脚本录制与回放方法. 房春荣, 田元汉, **虞圣呈**, 李秋婷, 吉品.
 - A method for online analysis of crash information for Android applications. Chunrong Fang, Yuanhan Tian, **Shengcheng Yu**, Wenyuan Zhao, Zhenyu Chen.
 	
 	- 一种面向安卓应用的崩溃信息线上分析方法. 房春荣, 田元汉, **虞圣呈**, 赵文远, 陈振宇.
 - A method for mobile application crowdsourced testing bug report generation based on image understanding technology. Chunrong Fang, **Shengcheng Yu**, Yexiao Yun, Xu Wang, Zhenfei Cao, Tongyu Li.
-- 一种基于图像理解技术的移动应用众包测试缺陷报告自动生成的方法. 房春荣, **虞圣呈**, 恽叶霄, 王旭, 曹振⻜
+  - 一种基于图像理解技术的移动应用众包测试缺陷报告自动生成的方法. 房春荣, **虞圣呈**, 恽叶霄, 王旭, 曹振⻜
 - A method for crowdsourced test report similarity detection based on natural language processing. Chunrong Fang, Xu Wang, Zhenfei Cao, **Shengcheng Yu**, Yexiao Yun, Tongyu Li.
   - 一种基于自然语言处理的众包测试报告相似度检测的方法. 房春荣, 王旭, 曹振⻜, **虞圣呈**, 恽叶霄, 李彤宇
 

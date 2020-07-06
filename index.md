@@ -91,7 +91,7 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 ## 2019
 
 - **Shengcheng Yu**, Chunrong Fang, Yang Feng, Wenyuan Zhao, Zhenyu Chen. LIRAT: Layout and Image Recognition Driving Automated Mobile Testing of Cross-Platform. ASE 2019 Demo. [paper](https://ieeexplore.ieee.org/document/8952513)
-- **Shengcheng Yu**. Crowdsourced Report Generation via Bug Screenshot Understanding. ASE 2019 Student Research Competition (**<u>ACM ASE’19 SRC First Place Undergraduate Winner</u>**). [paper](https://ieeexplore.ieee.org/document/8952296/)
+- **Shengcheng Yu**. Crowdsourced Report Generation via Bug Screenshot Understanding. ASE 2019 Student Research Competition (***ACM ASE’19 SRC First Place Undergraduate Winner***). [paper](https://ieeexplore.ieee.org/document/8952296/)
 - Tianxing He, **Shengcheng Yu**, Ziyuan Wang, Jieqiong L, Zhenyu Chen. From Data Quality to Model Quality: an Exploratory Study on Deep Learning. Internetware 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3361242.3361260)
 - Qiqi Gu, Weilin Cai, **Shengcheng Yu**, Zhenyu Chen. Judicial Image Quality Assessment Based on Deep Learning: an Exploratory Study. QRS 2019. [paper](https://ieeexplore.ieee.org/abstract/document/8854694)
 

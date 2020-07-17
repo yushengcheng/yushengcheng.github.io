@@ -17,11 +17,8 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 
 # Education Experience
 
-https://ysc-nju.oss-cn-shanghai.aliyuncs.com/PersonalWebsite/NJU.png
-
-<figure class="half">
-    <img src="https://ise-trs.oss-cn-shanghai.aliyuncs.com/1590292102_res.png" width="395">
-    <img src="https://ise-trs.oss-cn-shanghai.aliyuncs.com/1590292097_res.png" width="395">
+<figure>
+    <img src="https://ysc-nju.oss-cn-shanghai.aliyuncs.com/PersonalWebsite/NJU.png" width="395">
 </figure>
 
 ### Nanjing University, Software Institute

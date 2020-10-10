@@ -1,16 +1,14 @@
 # Shengcheng Yu
 
-A Ph.D. student of Software Institute, Nanjing University
-
-Student of [iSE Lab](http://www.iselab.cn)
+A Ph.D. student of [iSE Lab](http://www.iselab.cn), [Software Institute](http://software.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn)
 
 Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChen) & _Research Assistant_ [_Chunrong Fang_](http://www.iselab.cn/faculty/ChunrongFang)
 
 Research Interest: Software Testing, Mobile Application Testing, Crowdsourced testing, Image Understanding, Deep Learning
 
 ### Contact
+- yusc@smail.nju.edu.cn
 - ysc@smail.nju.edu.cn
-
 - ysc_nju@outlook.com
 
 * * *
@@ -25,7 +23,7 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 
 - Ph.D. Candidate in Software Engineering
 
-	> Sep 2020 - Now
+	> Sep. 2020 - Now
 	>
 	> Recommended Test-Free
 
@@ -33,11 +31,13 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 
 - B.Eng. in Software Engineering
 
-	> Sep 2016 - Jun 2020
+	> Sep. 2016 - Jun. 2020
 
 # Award
 
-2020 Nanjing University Distinguished Undergraduate Thesis (Under Rating)
+2020 Nanjing University President's Special Scholarship for Ph.D. Student
+
+2020 Nanjing University Distinguished Undergraduate Thesis - First Prize
 
 2020 Nanjing University Software Institute Outstanding Graduate
 
@@ -88,7 +88,7 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 ## 2020
 
 - Zhenfei Cao, Xu Wang, **Shengcheng Yu**, Yexiao Yun, Chunrong Fang. STIFA: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis. ASE 2020 Demo. *Accepted*
-- Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. Co-First Author. *Accepted*
+- Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. <u>Co-First Author</u>. [paper](https://dl.acm.org/doi/abs/10.1145/3377812.3382138)
 
 ## 2019
 
@@ -101,21 +101,18 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 
 # Tool
 
-- LIRAT: Layout and Layout and Image Recognition Driving Automated Mobile Testing of Cross-Platform
-
-	- Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
-
-	- [Link](https://github.com/yushengcheng/LIRAT)
-- FuRong: FuRong: Fusing Report of Automated Android Testing on Multi-Devices
-
-	- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
-
-	- To be open-sourced
-- iCTBRG: Intelligent Crowdsourced Testing Bug Report Generation
-
-	- Cooperator: YexiaoYun@NJU
+- **LIRAT**: Layout and Layout and Image Recognition Driving Automated Mobile Testing of Cross-Platform
+- Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
+	
+- [Link](https://github.com/yushengcheng/LIRAT)
+- **FuRong**: Fusing Report of Automated Android Testing on Multi-Devices
+- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
+	
 - To be open-sourced
-- STIFA: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis
+- **iCTBRG**: Intelligent Crowdsourced Testing Bug Report Generation
+- Cooperator: YexiaoYun@NJU
+	- To be open-sourced
+- **STIFA**: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis
   - Cooperator: ZhenfeiCao@NJU, XuWang@NJU
   - To be open-sourced
 
@@ -146,5 +143,5 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 * * *
 
 ```
-Last Updated: 2020-07-17
+Last Updated: 2020-10-10
 ```

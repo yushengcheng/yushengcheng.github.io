@@ -102,16 +102,16 @@ Research Interest: Software Testing, Mobile Application Testing, Crowdsourced te
 # Tool
 
 - **LIRAT**: Layout and Layout and Image Recognition Driving Automated Mobile Testing of Cross-Platform
-- Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
-	
-- [Link](https://github.com/yushengcheng/LIRAT)
+  - Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
+  	
+  - [Link](https://github.com/yushengcheng/LIRAT)
 - **FuRong**: Fusing Report of Automated Android Testing on Multi-Devices
-- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
-	
-- To be open-sourced
+  - Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
+  	
+  - To be open-sourced
 - **iCTBRG**: Intelligent Crowdsourced Testing Bug Report Generation
-- Cooperator: YexiaoYun@NJU
-	- To be open-sourced
+  - Cooperator: YexiaoYun@NJU
+  - To be open-sourced
 - **STIFA**: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis
   - Cooperator: ZhenfeiCao@NJU, XuWang@NJU
   - To be open-sourced

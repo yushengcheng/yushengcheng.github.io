@@ -103,6 +103,7 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 ## 2021
 
 - **Shengcheng Yu**, Chunrong Fang, Yexiao Yun, Yang Feng. Layout and Image Recognition Driving Cross-platform Automated Mobile Testing. ICSE 2021. *Accepted*
+
 - **Shengcheng Yu**, Chunrong Fang, Zhenfei Cao, Xu Wang, Tongyu Li, Zhenyu Chen. Prioritize Crowdsourced Test Reports via Deep Screenshot Understanding. ICSE 2021. *Accepted*
 
 ## 2020
@@ -130,21 +131,29 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
   - Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
   	
   - [Link](https://sites.google.com/view/lit)
+
 - **FuRong**: Fusing Report of Automated Android Testing on Multi-Devices
-- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
-  	
+
+  - Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
+
   - To be open-sourced
+
 - **iCTBRG**: Intelligent Crowdsourced Testing Bug Report Generation
 
   - Cooperator: YexiaoYun@NJU
 
   - To be open-sourced
+
 - **STIFA**: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis
 
   - Cooperator: ZhenfeiCao@NJU, XuWang@NJU
-- To be open-sourced
-- **DeepPrior**: 
+
+  - To be open-sourced
+
+- **DeepPrior**: Prioritize Crowdsourced Test Reports via Deep Screenshot Understanding
+
   - Cooperator: ZhenfeiCao@NJU, XuWang@NJU, TongyuLi@NJU
+
   - [Link](https://sites.google.com/view/deepprior)
 
 * * *

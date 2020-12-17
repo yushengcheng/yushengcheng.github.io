@@ -48,9 +48,11 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
 # Award
 
+2020 Nanjing University - HPI Research Scholarship
+
 2020 Nanjing University President's Special Scholarship for Ph.D. Student
 
-2020 Nanjing University Distinguished Undergraduate Thesis - First Prize
+2020 Nanjing University Distinguished Undergraduate Thesis - <u>First Prize</u>
 
 2020 Nanjing University Software Institute Outstanding Graduate
 
@@ -60,11 +62,11 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
 2018 Nanjing University “NJU - Linkage” Leadership Scholarship
 
-2018-2019 Renmin Scholarship
+2018-2019 Nanjing University Renmin Scholarship
 
-2017-2018 Renmin Scholarship
+2017-2018 Nanjing University Renmin Scholarship
 
-2016-2017 Renmin Scholarship
+2016-2017 Nanjing University Renmin Scholarship
 
 * * *
 
@@ -74,7 +76,7 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
   - Mobile Application Testing Research Based on Image Understanding
 
-  - Program Leader
+  - Project Leader
 
   - National Level
 
@@ -84,7 +86,7 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
     Products and Technology Services
 
-  - Program Participant
+  - Project Participant
 
 - National Natural Science Foundation of China (61802171)
 
@@ -92,11 +94,16 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
     Information Fusion
 
-  - Program Participant
+  - Project Participant
 
 * * *
 
 # Publication
+
+## 2021
+
+- **Shengcheng Yu**, Chunrong Fang, Yexiao Yun, Yang Feng. Layout and Image Recognition Driving Cross-platform Automated Mobile Testing. ICSE 2021. *Accepted*
+- **Shengcheng Yu**, Chunrong Fang, Zhenfei Cao, Xu Wang, Tongyu Li, Zhenyu Chen. Prioritize Crowdsourced Test Reports via Deep Screenshot Understanding. ICSE 2021. *Accepted*
 
 ## 2020
 
@@ -122,25 +129,23 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
   - Cooperator: YexiaoYun@NJU, WenyuanZhao@HUAWEI
   	
-  - [Link](https://github.com/yushengcheng/LIRAT)
-
+  - [Link](https://sites.google.com/view/lit)
 - **FuRong**: Fusing Report of Automated Android Testing on Multi-Devices
-
-  - Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
+- Cooperator: YuanhanTian@NJU, PeiyuanLi@HUAWEI, ZhenfeiCao@NJU, XuWang@NJU
   	
   - To be open-sourced
-
 - **iCTBRG**: Intelligent Crowdsourced Testing Bug Report Generation
 
   - Cooperator: YexiaoYun@NJU
 
   - To be open-sourced
-
 - **STIFA**: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis
 
   - Cooperator: ZhenfeiCao@NJU, XuWang@NJU
-
-  - To be open-sourced
+- To be open-sourced
+- **DeepPrior**: 
+  - Cooperator: ZhenfeiCao@NJU, XuWang@NJU, TongyuLi@NJU
+  - [Link](https://sites.google.com/view/deepprior)
 
 * * *
 
@@ -175,5 +180,5 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 * * *
 
 ```
-Last Updated: 2020-10-10
+Last Updated: 2020-12-17
 ```

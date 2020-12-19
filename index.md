@@ -178,6 +178,20 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
 * * *
 
+# Academic Service
+
+***[CST 2020]*** Online Coordinator for National Contest on Software Testing
+
+***[CST 2019]*** On-site Coordinator for National Contest on Software Testing
+
+***[QRS 2019]*** On-site Coordinator for IEEE International Contest on Software Testing
+
+***[ISSTA 2019]*** Student Volunteer
+
+***[ISSTA 2019]*** On-site Coordinator for Testing Competition
+
+* * *
+
 # One More Thing
 
 - Interested in classic music

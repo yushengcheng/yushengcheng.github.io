@@ -7,10 +7,15 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 ### Research Interest
 
 - Software Testing
+
 - Mobile Application Testing
+
 - Crowdsourced testing
+
 - Image Understanding
+
 - Multi-Modal Information Semantic Analysis
+
 - Deep Learning
 
 ### Contact

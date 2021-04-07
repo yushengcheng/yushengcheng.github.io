@@ -187,6 +187,8 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
 ***[ISSTA 2019]*** On-site Coordinator for Testing Competition
 
+* * *
+
 # Teaching
 
 ***[2019-2020]*** Teaching Assistant: *<u>Automated Testing</u>*
@@ -204,5 +206,5 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 * * *
 
 ```
-Last Updated: 2020-12-17
+Last Updated: 2021-04-08
 ```

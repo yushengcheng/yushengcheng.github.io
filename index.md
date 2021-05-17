@@ -104,13 +104,13 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 
 ## 2021
 
-- **Shengcheng Yu**, Chunrong Fang, Yexiao Yun, Yang Feng. Layout and Image Recognition Driving Cross-platform Automated Mobile Testing. ICSE 2021. *Accepted*
+- **Shengcheng Yu**, Chunrong Fang, Yexiao Yun, Yang Feng. Layout and Image Recognition Driving Cross-platform Automated Mobile Testing. ICSE 2021. [paper](https://ieeexplore.ieee.org/abstract/document/9401983)
 
-- **Shengcheng Yu**, Chunrong Fang, Zhenfei Cao, Xu Wang, Tongyu Li, Zhenyu Chen. Prioritize Crowdsourced Test Reports via Deep Screenshot Understanding. ICSE 2021. *Accepted*
+- **Shengcheng Yu**, Chunrong Fang, Zhenfei Cao, Xu Wang, Tongyu Li, Zhenyu Chen. Prioritize Crowdsourced Test Reports via Deep Screenshot Understanding. ICSE 2021. [paper](https://ieeexplore.ieee.org/document/9401980)
 
 ## 2020
 
-- Zhenfei Cao, Xu Wang, **Shengcheng Yu**, Yexiao Yun, Chunrong Fang. STIFA: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis. ASE 2020 Demo. *Accepted*
+- Zhenfei Cao, Xu Wang, **Shengcheng Yu**, Yexiao Yun, Chunrong Fang. STIFA: Crowdsourced Mobile Testing Report Selection Based on Text and Image Fusion Analysis. ASE 2020 Demo. [paper](https://ieeexplore.ieee.org/document/9286010)
 
 - Yuanhan Tian, **Shengcheng Yu**, Chunrong Fang, Peiyuan Li. FuRong: Fusing Report of Automated Android Testing on Multi-Devices. ICSE 2020 Demo. <u>Co-First Author</u>. [paper](https://dl.acm.org/doi/abs/10.1145/3377812.3382138)
 
@@ -211,5 +211,5 @@ Supervised by _Professor_ [_Zhenyu Chen_](http://www.iselab.cn/faculty/ZhenyuChe
 * * *
 
 ```
-Last Updated: 2021-04-08
+Last Updated: 2021-05-17
 ```

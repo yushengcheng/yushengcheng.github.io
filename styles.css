@@ -439,6 +439,10 @@ li {
   list-style: none;
 }
 
+#publication .publication-list + h3 {
+  margin-top: 28px;
+}
+
 .publication-list > li {
   margin: 0;
   padding: 11px 0 12px;

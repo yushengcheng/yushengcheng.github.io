@@ -321,6 +321,83 @@
     { target: "teaching-content", path: "content/teaching.csv", render: renderTeaching }
   ];
 
+  function setupSectionNavigation() {
+    const nav = document.querySelector(".primary-nav");
+    const header = document.querySelector(".site-header");
+    if (!nav) {
+      return () => {};
+    }
+
+    const tracked = Array.from(nav.querySelectorAll('a[href^="#"]')).map((link) => ({
+      link,
+      section: document.querySelector(link.getAttribute("href"))
+    })).filter(({ section }) => section);
+
+    let activeId = "";
+    let animationFrame = 0;
+
+    function keepActiveLinkVisible(link) {
+      const linkStart = link.offsetLeft;
+      const linkEnd = linkStart + link.offsetWidth;
+      const visibleStart = nav.scrollLeft;
+      const visibleEnd = visibleStart + nav.clientWidth;
+      if (linkStart < visibleStart || linkEnd > visibleEnd) {
+        nav.scrollLeft = Math.max(0, linkStart - (nav.clientWidth - link.offsetWidth) / 2);
+      }
+    }
+
+    function setActiveSection(id) {
+      if (id === activeId) {
+        return;
+      }
+      activeId = id;
+      tracked.forEach(({ link, section }) => {
+        const isActive = section.id === id;
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+          keepActiveLinkVisible(link);
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    }
+
+    function updateActiveSection() {
+      animationFrame = 0;
+      const marker = (header ? header.getBoundingClientRect().height : 0) + 24;
+      let currentId = "";
+      tracked.forEach(({ section }) => {
+        if (section.getBoundingClientRect().top <= marker) {
+          currentId = section.id;
+        }
+      });
+
+      const pageBottom = window.scrollY + window.innerHeight;
+      if (tracked.length && pageBottom >= document.documentElement.scrollHeight - 2) {
+        currentId = tracked[tracked.length - 1].section.id;
+      }
+      setActiveSection(currentId);
+    }
+
+    function scheduleUpdate() {
+      if (!animationFrame) {
+        animationFrame = window.requestAnimationFrame(updateActiveSection);
+      }
+    }
+
+    tracked.forEach(({ link, section }) => {
+      link.addEventListener("click", () => setActiveSection(section.id));
+    });
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+    window.addEventListener("hashchange", scheduleUpdate);
+    scheduleUpdate();
+    return scheduleUpdate;
+  }
+
+  const refreshSectionNavigation = setupSectionNavigation();
+
   async function loadModule(module) {
     const target = document.getElementById(module.target);
     try {
@@ -338,6 +415,7 @@
 
   window.contentReady = Promise.all(modules.map(loadModule)).then((result) => {
     document.documentElement.dataset.contentLoaded = "true";
+    refreshSectionNavigation();
     return result;
   });
 })();

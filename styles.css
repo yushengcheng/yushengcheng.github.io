@@ -123,12 +123,14 @@ summary:focus-visible {
 }
 
 .primary-nav a:hover,
-.primary-nav a:focus-visible {
+.primary-nav a:focus-visible,
+.primary-nav a.is-active {
   color: var(--accent);
 }
 
 .primary-nav a:hover::after,
-.primary-nav a:focus-visible::after {
+.primary-nav a:focus-visible::after,
+.primary-nav a.is-active::after {
   transform: scaleX(1);
 }
 

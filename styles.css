@@ -141,23 +141,23 @@ summary:focus-visible {
 
 .page-shell {
   display: grid;
-  grid-template-areas:
-    "profile content"
-    "visitor content";
+  grid-template-areas: "sidebar content";
   grid-template-columns: 230px minmax(0, 1fr);
-  grid-template-rows: max-content 1fr;
   column-gap: 42px;
-  row-gap: 0;
   width: min(var(--page-width), calc(100% - 40px));
   margin: 0 auto;
   padding: 34px 0 48px;
 }
 
-.profile {
+.sidebar-column {
   position: sticky;
   top: 80px;
-  grid-area: profile;
+  grid-area: sidebar;
   align-self: start;
+}
+
+.profile {
+  position: static;
 }
 
 .portrait-frame {
@@ -565,8 +565,6 @@ li {
 }
 
 .visitor-map {
-  grid-area: visitor;
-  align-self: start;
   width: min(220px, 100%);
   margin-top: 20px;
 }
@@ -587,7 +585,7 @@ li {
 
   .page-shell {
     grid-template-columns: 180px minmax(0, 1fr);
-    gap: 30px;
+    column-gap: 30px;
   }
 
   .portrait-frame {
@@ -628,8 +626,13 @@ li {
     padding-top: 23px;
   }
 
+  .sidebar-column {
+    display: contents;
+  }
+
   .profile {
     position: static;
+    order: 1;
     display: grid;
     grid-template-columns: 112px 1fr;
     gap: 0 18px;
@@ -672,8 +675,13 @@ li {
   }
 
   .visitor-map {
+    order: 3;
     width: min(220px, 100%);
     margin: 24px auto 0;
+  }
+
+  .content {
+    order: 2;
   }
 
   .home-block {

@@ -2,12 +2,12 @@
   --text: #333333;
   --muted: #666666;
   --link: #345b73;
-  --accent: #6f2c8f;
+  --accent: #2f617c;
   --line: #e5e5e5;
   --panel-bg: #f8f9fa;
   --panel-border: #e6e9eb;
-  --research-bg: #faf8fc;
-  --research-border: #ebe5ef;
+  --research-bg: #f7fafc;
+  --research-border: #dfe9ef;
   --soft: #f7f7f7;
   --page-width: 1120px;
   --font: "Trebuchet MS", Helvetica, sans-serif;
@@ -441,10 +441,10 @@ li {
   display: inline-block;
   margin-right: 6px;
   padding: 0 5px;
-  border: 1px solid rgba(111, 44, 143, 0.2);
+  border: 1px solid rgba(47, 97, 124, 0.22);
   border-radius: 999px;
-  color: #5d276f;
-  background: rgba(111, 44, 143, 0.08);
+  color: #294f65;
+  background: rgba(47, 97, 124, 0.09);
   font-size: inherit;
   font-weight: 700;
   line-height: 1.35;
@@ -454,8 +454,8 @@ li {
 .self-author {
   padding: 0 2px;
   border-radius: 3px;
-  color: #5d276f;
-  background: rgba(111, 44, 143, 0.08);
+  color: #294f65;
+  background: rgba(47, 97, 124, 0.09);
   font-size: inherit;
   font-weight: 800;
   box-decoration-break: clone;

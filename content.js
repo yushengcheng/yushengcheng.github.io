@@ -222,7 +222,7 @@
     if (!hasValue(value)) {
       return "";
     }
-    if (normalizeCell(value) === "Best Paper Award") {
+    if (["Best Paper Award", "First Place Award (Undergraduate) Winner"].includes(normalizeCell(value))) {
       return ` <span class="best-paper"><img src="award.gif" alt="Award"><strong>${escapeHTML(value)}</strong></span>`;
     }
     return ` <span class="paper-note">${escapeHTML(value)}</span>`;

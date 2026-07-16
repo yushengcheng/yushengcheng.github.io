@@ -199,6 +199,15 @@ summary:focus-visible {
   text-decoration: none;
 }
 
+.profile-meta .profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .content {
   min-width: 0;
 }

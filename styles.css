@@ -202,10 +202,32 @@ summary:focus-visible {
 .profile-meta .profile-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 14px;
+  gap: 4px 8px;
+  align-items: center;
   margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 700;
+}
+
+.profile-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #4a4f53;
+  transition: color 150ms ease, background-color 150ms ease;
+}
+
+.profile-icon-link:hover,
+.profile-icon-link:focus-visible {
+  color: var(--accent);
+  background: #eef4f7;
+}
+
+.profile-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 .content {

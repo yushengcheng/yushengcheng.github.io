@@ -404,16 +404,17 @@ li {
 }
 
 .best-paper {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  display: inline;
   color: #8a5618;
+  white-space: nowrap;
 }
 
 .best-paper img {
   width: 32px;
   height: 22px;
+  margin: 0 5px 0 3px;
   object-fit: cover;
+  vertical-align: middle;
 }
 
 .service-group {

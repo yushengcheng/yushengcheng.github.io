@@ -208,6 +208,11 @@ summary:focus-visible {
   margin-bottom: 7px;
 }
 
+.profile-email-address {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
 .profile-meta a {
   text-decoration: none;
 }
@@ -670,7 +675,7 @@ li {
 
   .profile-meta {
     grid-column: 1 / -1;
-    columns: 2;
+    columns: 1;
     margin-top: 13px;
   }
 

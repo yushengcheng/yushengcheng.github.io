@@ -619,6 +619,11 @@ li {
     margin-top: 13px;
   }
 
+  .visitor-map {
+    grid-column: 1 / -1;
+    margin-top: 14px;
+  }
+
   .home-block {
     margin-bottom: 12px;
     padding: 14px 15px;

@@ -203,19 +203,19 @@
         correspondingAuthors.has(normalized) ? "<sup>*</sup>" : ""
       ].join("");
       const decorated = `${escapeHTML(name)}${markers}${escapeHTML(suffix)}`;
-      return normalized === "Shengcheng Yu" ? `<strong>${decorated}</strong>` : decorated;
+      return normalized === "Shengcheng Yu" ? `<strong class="self-author">${decorated}</strong>` : decorated;
     }).join(", ");
   }
 
   function publicationStatus(value) {
     const status = normalizeCell(value).toLowerCase();
     if (status === "ac") {
-      return " (Accepted)";
+      return `<span class="publication-status"> (Accepted)</span>`;
     }
     if (status === "pb" || status === "" || status === EMPTY_VALUE) {
       return "";
     }
-    return ` (${escapeHTML(value)})`;
+    return `<span class="publication-status"> (${escapeHTML(value)})</span>`;
   }
 
   function publicationNote(value) {
@@ -239,12 +239,16 @@
 
     const years = Array.from(byYear.entries()).map(([year, papers]) => {
       const items = papers.map((paper) => {
-        const level = hasValue(paper.level) ? `<b>[${escapeHTML(paper.level)}]</b> ` : "";
+        const level = hasValue(paper.level)
+          ? `<span class="publication-level">[${escapeHTML(paper.level)}]</span>`
+          : "";
         return `
-          <li>
-            <a href="${escapeHTML(safeHref(paper.link))}"><u>${escapeHTML(paper.title)}</u></a>${publicationStatus(paper.status)}<br>
-            ${renderAuthors(paper)}.<br>
-            ${level}${escapeHTML(paper.venue)}${publicationNote(paper.note)}
+          <li class="publication-item">
+            <div class="publication-title-row">
+              <a class="publication-title" href="${escapeHTML(safeHref(paper.link))}">${escapeHTML(paper.title)}</a>${publicationStatus(paper.status)}
+            </div>
+            <div class="publication-authors">${renderAuthors(paper)}.</div>
+            <div class="publication-venue">${level}${escapeHTML(paper.venue)}${publicationNote(paper.note)}</div>
           </li>`;
       }).join("");
       return `<h3>${escapeHTML(year)}</h3><ul class="publication-list">${items}</ul>`;

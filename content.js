@@ -141,14 +141,21 @@
       const details = noteLines
         .map((line) => `<div class="experience-detail">${linkifyAcademicNames(line)}</div>`)
         .join("");
+      const notes = details ? `<div class="experience-notes">${details}</div>` : "";
 
       return `
-        <li>
-          <span class="experience-line">
+        <li class="experience-item">
+          <span class="experience-logo" aria-hidden="true">
             <img class="institution-logo" src="${logo.src}" alt="${logo.alt}">
-            <span><strong>${escapeHTML(row.time)}</strong>: ${escapeHTML(row.position)} (${escapeHTML(row.institute)})</span>
           </span>
-          ${details}
+          <div class="experience-body">
+            <div class="experience-heading">
+              <strong class="experience-position">${escapeHTML(row.position)}</strong>
+              <span class="experience-time">${escapeHTML(row.time)}</span>
+            </div>
+            <div class="experience-institute">${escapeHTML(row.institute)}</div>
+            ${notes}
+          </div>
         </li>`;
     }).join("");
 

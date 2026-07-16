@@ -134,7 +134,7 @@ summary:focus-visible {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 205px minmax(0, 1fr);
+  grid-template-columns: 230px minmax(0, 1fr);
   gap: 42px;
   width: min(var(--page-width), calc(100% - 40px));
   margin: 0 auto;

@@ -124,12 +124,12 @@
 
   function institutionLogo(institute) {
     if (institute.includes("Technical University of Munich")) {
-      return { src: "TUM.png", alt: "TUM" };
+      return { src: "icon/TUM.png", alt: "TUM" };
     }
     if (institute.includes("ETH Zurich")) {
-      return { src: "ETH.svg", alt: "ETH" };
+      return { src: "icon/ETH.svg", alt: "ETH" };
     }
-    return { src: "NJU.jpg", alt: "NJU" };
+    return { src: "icon/NJU.jpg", alt: "NJU" };
   }
 
   function renderExperience(rows) {
@@ -223,7 +223,7 @@
       return "";
     }
     if (["Best Paper Award", "First Place Award (Undergraduate) Winner"].includes(normalizeCell(value))) {
-      return ` <span class="best-paper"><img src="award.gif" alt="Award"><strong>${escapeHTML(value)}</strong></span>`;
+      return ` <span class="best-paper"><img src="icon/award.gif" alt="Award"><strong>${escapeHTML(value)}</strong></span>`;
     }
     return ` <span class="paper-note">${escapeHTML(value)}</span>`;
   }

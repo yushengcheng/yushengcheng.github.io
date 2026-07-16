@@ -251,10 +251,29 @@ summary:focus-visible {
   display: block;
   width: 20px;
   height: 20px;
+  background-color: currentColor;
+  -webkit-mask: var(--profile-icon) center / contain no-repeat;
+  mask: var(--profile-icon) center / contain no-repeat;
 }
 
-.profile-icon path {
-  fill: currentColor;
+.profile-icon-homepage {
+  --profile-icon: url("icon/homepage.svg");
+}
+
+.profile-icon-dblp {
+  --profile-icon: url("icon/dblp.svg");
+}
+
+.profile-icon-google-scholar {
+  --profile-icon: url("icon/google-scholar.svg");
+}
+
+.profile-icon-linkedin {
+  --profile-icon: url("icon/linkedin.svg");
+}
+
+.profile-icon-x {
+  --profile-icon: url("icon/x.svg");
 }
 
 .content {

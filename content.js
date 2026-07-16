@@ -265,7 +265,7 @@
     if (row.type === "Journal Reviewer" || row.type === "External Reviewer") {
       return `<li>${venue}</li>`;
     }
-    if (row.type === "Contest on Software Testing") {
+    if (row.type === "Software Testing Contest") {
       return `<li>${year ? `<b>[${year}]</b> ` : ""}${role ? `${role} for ` : ""}${venue}</li>`;
     }
     if (role) {

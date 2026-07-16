@@ -134,8 +134,13 @@ summary:focus-visible {
 
 .page-shell {
   display: grid;
+  grid-template-areas:
+    "profile content"
+    "visitor content";
   grid-template-columns: 230px minmax(0, 1fr);
-  gap: 42px;
+  grid-template-rows: max-content 1fr;
+  column-gap: 42px;
+  row-gap: 0;
   width: min(var(--page-width), calc(100% - 40px));
   margin: 0 auto;
   padding: 34px 0 48px;
@@ -144,6 +149,7 @@ summary:focus-visible {
 .profile {
   position: sticky;
   top: 80px;
+  grid-area: profile;
   align-self: start;
 }
 
@@ -240,6 +246,7 @@ summary:focus-visible {
 }
 
 .content {
+  grid-area: content;
   min-width: 0;
 }
 
@@ -547,6 +554,8 @@ li {
 }
 
 .visitor-map {
+  grid-area: visitor;
+  align-self: start;
   width: min(220px, 100%);
   margin-top: 20px;
 }
@@ -602,7 +611,8 @@ li {
   }
 
   .page-shell {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: calc(100% - 28px);
     padding-top: 23px;
   }
@@ -651,8 +661,8 @@ li {
   }
 
   .visitor-map {
-    grid-column: 1 / -1;
-    margin-top: 14px;
+    width: min(220px, 100%);
+    margin: 24px auto 0;
   }
 
   .home-block {

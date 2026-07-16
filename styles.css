@@ -178,7 +178,8 @@ summary:focus-visible {
 .profile-affiliation {
   margin: 0 0 17px;
   color: #444444;
-  line-height: 1.55;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .profile-meta {
@@ -218,6 +219,11 @@ summary:focus-visible {
 
 .content-error {
   color: #8b2f2f;
+}
+
+.content-section .module-content {
+  color: #292929;
+  font-size: 16px;
 }
 
 .content-section {
@@ -335,14 +341,14 @@ li {
 }
 
 .experience-position {
-  color: #303030;
-  font-size: 15px;
+  color: #252525;
+  font-size: 16px;
 }
 
 .experience-time {
   flex: 0 0 auto;
-  color: #555555;
-  font-size: 13px;
+  color: #404040;
+  font-size: 14px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
@@ -350,15 +356,15 @@ li {
 
 .experience-institute {
   margin-top: 1px;
-  color: #4f4f4f;
-  font-size: 14px;
+  color: #383838;
+  font-size: 15px;
   line-height: 1.35;
 }
 
 .experience-notes {
   margin-top: 3px;
-  color: #666666;
-  font-size: 13px;
+  color: #4a4a4a;
+  font-size: 14px;
   line-height: 1.35;
 }
 
@@ -395,7 +401,7 @@ li {
 }
 
 .publication-list b {
-  color: #444444;
+  color: #333333;
 }
 
 .paper-note {
@@ -588,7 +594,7 @@ li {
   .experience-time {
     display: block;
     margin-top: 1px;
-    font-size: 12.5px;
+    font-size: 13px;
   }
 }
 

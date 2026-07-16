@@ -209,24 +209,33 @@ summary:focus-visible {
 
 .profile-icon-link {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #d7e2e8;
   border-radius: 50%;
-  color: #4a4f53;
-  transition: color 150ms ease, background-color 150ms ease;
+  color: var(--link);
+  background: #f7fafc;
+  line-height: 0;
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease;
 }
 
 .profile-icon-link:hover,
 .profile-icon-link:focus-visible {
   color: var(--accent);
-  background: #eef4f7;
+  border-color: #aac1ce;
+  background: #eaf2f6;
 }
 
 .profile-icon {
-  width: 18px;
-  height: 18px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.profile-icon path {
   fill: currentColor;
 }
 

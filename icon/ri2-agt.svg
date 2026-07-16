@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="#345b73" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Automated GUI Testing</title>
+  <path d="M17.5 11V5.5a2 2 0 0 0-2-2h-11a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7"/>
+  <path d="M2.5 7.5h15M5.5 10.5h5M5.5 13.5h3"/>
+  <circle cx="16" cy="15" r="3.4"/>
+  <path d="m18.5 17.5 3 3M14.6 15l1 1 1.9-2"/>
+</svg>

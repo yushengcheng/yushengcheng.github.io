@@ -253,6 +253,9 @@
     if (status === "ac") {
       return `<span class="publication-status"> (Accepted)</span>`;
     }
+    if (status === "pp") {
+      return `<span class="publication-status"> (Preprint)</span>`;
+    }
     if (status === "pb" || status === "" || status === EMPTY_VALUE) {
       return "";
     }
@@ -278,10 +281,21 @@
       byYear.get(row.year).push(row);
     });
 
-    const years = Array.from(byYear.entries()).map(([year, papers]) => {
+    const groupedEntries = Array.from(byYear.entries());
+    const orderedGroups = [
+      ...groupedEntries.filter(([year]) => normalizeCell(year).toUpperCase() === "M"),
+      ...groupedEntries.filter(([year]) => normalizeCell(year).toUpperCase() !== "M")
+    ];
+
+    const years = orderedGroups.map(([year, papers]) => {
       const items = sortRowsByIdDescending(papers).map((paper) => {
         const level = hasValue(paper.level)
           ? `<span class="publication-level">[${escapeHTML(paper.level)}]</span>`
+          : "";
+        const venue = hasValue(paper.venue) ? escapeHTML(paper.venue) : "";
+        const note = publicationNote(paper.note);
+        const venueDetails = level || venue || note
+          ? `<div class="publication-venue">${level}${venue}${note}</div>`
           : "";
         return `
           <li class="publication-item">
@@ -289,10 +303,11 @@
               <a class="publication-title" href="${escapeHTML(safeHref(paper.link))}">${escapeHTML(paper.title)}</a>${publicationStatus(paper.status)}
             </div>
             <div class="publication-authors">${renderAuthors(paper)}.</div>
-            <div class="publication-venue">${level}${escapeHTML(paper.venue)}${publicationNote(paper.note)}</div>
+            ${venueDetails}
           </li>`;
       }).join("");
-      return `<h3>${escapeHTML(year)}</h3><ul class="publication-list">${items}</ul>`;
+      const groupTitle = normalizeCell(year).toUpperCase() === "M" ? "Manuscript" : year;
+      return `<h3>${escapeHTML(groupTitle)}</h3><ul class="publication-list">${items}</ul>`;
     }).join("");
 
     return `<p class="publication-note"><sup>#</sup>: Co-first Author &nbsp;&nbsp; <sup>*</sup>: Corresponding Author</p>${years}`;

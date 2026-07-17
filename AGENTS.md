@@ -11,5 +11,5 @@
 - Treat every file under `content/` as user-managed source data.
 - Never create, edit, delete, rename, reformat, normalize line endings, or otherwise modify anything under `content/` automatically.
 - If a task appears to require a change under `content/`, stop before making that change and tell the user exactly what they need to edit manually.
-- Check for changes under `content/` whenever inspecting the working tree. Any detected change under `content/` is considered a user-authored content update: do not alter or revert it; promptly commit those files in a dedicated content-only commit and push it to `origin/v2026` without asking again.
-- Keep detected `content/` changes separate from website code, styling, configuration, and other unrelated files.
+- Check for changes under `content/` whenever inspecting the working tree. Any detected change under `content/` is considered a user-authored content update: do not alter, revert, or commit it immediately solely because it was detected.
+- Keep detected `content/` changes pending until the next requested task is completed, then include them in the same commit as that task's files and push the combined commit to `origin/v2026`. This is an explicit exception to the rule about committing only files belonging to the current request; do not create a separate content-only commit unless the user explicitly asks for one.

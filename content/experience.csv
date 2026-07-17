@@ -1,8 +1,8 @@
-time,position,institute,note
-Feb. 2025 - Now,Postdoctoral Researcher,"Technical University of Munich, School of Computation, Information and Technology",Cooperating with Prof. Dr. Chunyang Chen (https://chunyang-chen.github.io/)
-Oct. 2024 - Feb. 2025,Research Assistant,"Nanjing University, Software Institute",/
-Sep. 2020 - Sep. 2024,Ph.D. in Software Engineering,"Nanjing University, Software Institute","	Supervised by Professor Zhenyu Chen (https://software.nju.edu.cn//zychen/index.html) and Associate Professor Chunrong Fang (https://chunrong.github.io/)
+id,time,position,institute,note
+5,Feb. 2025 - Now,Postdoctoral Researcher,"Technical University of Munich, School of Computation, Information and Technology",Cooperating with Prof. Dr. Chunyang Chen (https://chunyang-chen.github.io/)
+4,Oct. 2024 - Feb. 2025,Research Assistant,"Nanjing University, Software Institute",/
+3,Sep. 2020 - Sep. 2024,Ph.D. in Software Engineering,"Nanjing University, Software Institute","	Supervised by Professor Zhenyu Chen (https://software.nju.edu.cn//zychen/index.html) and Associate Professor Chunrong Fang (https://chunrong.github.io/)
 Ph.D. Thesis: Knowledge-Enhanced Intelligent GUI Testing Research
 "
-Oct. 2022 - Oct. 2023,Visiting Ph.D.,"ETH Zurich, Department of Computer Science",Supervised by Professor Zhendong Su (https://people.inf.ethz.ch/suz/)
-Sep. 2016 - Jun. 2020,B.Eng. in Software Engineering,"Nanjing University, Software Institute",/
+2,Oct. 2022 - Oct. 2023,Visiting Ph.D.,"ETH Zurich, Department of Computer Science",Supervised by Professor Zhendong Su (https://people.inf.ethz.ch/suz/)
+1,Sep. 2016 - Jun. 2020,B.Eng. in Software Engineering,"Nanjing University, Software Institute",/

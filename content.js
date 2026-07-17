@@ -98,12 +98,53 @@
     });
   }
 
+  function hasIdField(row) {
+    return Object.prototype.hasOwnProperty.call(row, "id");
+  }
+
+  function filterRowsById(rows) {
+    if (!rows.some(hasIdField)) {
+      return rows;
+    }
+    return rows.filter((row) => normalizeCell(row.id).toUpperCase().indexOf("N") === -1);
+  }
+
+  function compareIdsDescending(first, second) {
+    const firstId = normalizeCell(first.id);
+    const secondId = normalizeCell(second.id);
+    if (firstId === secondId) {
+      return 0;
+    }
+    if (firstId === "") {
+      return 1;
+    }
+    if (secondId === "") {
+      return -1;
+    }
+
+    const numericIdPattern = /^-?\d+(?:\.\d+)?$/;
+    if (numericIdPattern.test(firstId) && numericIdPattern.test(secondId)) {
+      return Number(secondId) - Number(firstId);
+    }
+    return firstId < secondId ? 1 : -1;
+  }
+
+  function sortRowsByIdDescending(rows) {
+    if (!rows.some(hasIdField)) {
+      return rows.slice();
+    }
+    return rows
+      .map((row, index) => ({ row, index }))
+      .sort((first, second) => compareIdsDescending(first.row, second.row) || first.index - second.index)
+      .map((entry) => entry.row);
+  }
+
   async function fetchCSV(path) {
     const response = await fetch(path, { cache: "no-cache" });
     if (!response.ok) {
       throw new Error(`Unable to load ${path}: ${response.status}`);
     }
-    return parseCSV(await response.text());
+    return filterRowsById(parseCSV(await response.text()));
   }
 
   function linkifyAcademicNames(value) {
@@ -133,7 +174,7 @@
   }
 
   function renderExperience(rows) {
-    const items = rows.map((row) => {
+    const items = sortRowsByIdDescending(rows).map((row) => {
       const logo = institutionLogo(row.institute);
       const noteLines = hasValue(row.note)
         ? normalizeCell(row.note).split(/\n+/).map((line) => normalizeCell(line)).filter(Boolean)
@@ -163,14 +204,14 @@
   }
 
   function renderAwards(rows) {
-    const items = rows
+    const items = sortRowsByIdDescending(rows)
       .map((row) => `<li>${escapeHTML(row.awardrecog)}</li>`)
       .join("");
     return `<ul class="awards-list">${items}</ul>`;
   }
 
   function renderFunding(rows) {
-    const items = rows.map((row) => {
+    const items = sortRowsByIdDescending(rows).map((row) => {
       const number = hasValue(row.number) ? ` (${escapeHTML(row.number)})` : "";
       return `<li><strong>${escapeHTML(row.role)}</strong>: <u>${escapeHTML(row.source)}${number}</u><br>${escapeHTML(row.title)}</li>`;
     }).join("");
@@ -238,7 +279,7 @@
     });
 
     const years = Array.from(byYear.entries()).map(([year, papers]) => {
-      const items = papers.map((paper) => {
+      const items = sortRowsByIdDescending(papers).map((paper) => {
         const level = hasValue(paper.level)
           ? `<span class="publication-level">[${escapeHTML(paper.level)}]</span>`
           : "";
@@ -284,13 +325,13 @@
     });
 
     return Array.from(groups.entries()).map(([type, entries]) => {
-      const items = entries.map(renderServiceItem).join("");
+      const items = sortRowsByIdDescending(entries).map(renderServiceItem).join("");
       return `<div class="service-group"><strong>${escapeHTML(type)}:</strong><ul class="service-list">${items}</ul></div>`;
     }).join("");
   }
 
   function renderTalks(rows) {
-    const items = rows.map((row) => `
+    const items = sortRowsByIdDescending(rows).map((row) => `
       <li><b>${escapeHTML(row.date)} <a href="${escapeHTML(safeHref(row.link))}">${escapeHTML(row.venue)}</a></b>: "${escapeHTML(row.title)}"</li>`).join("");
     return `<ul class="talk-list">${items}</ul>`;
   }
@@ -305,7 +346,7 @@
     });
 
     return Array.from(groups.entries()).map(([university, entries]) => {
-      const items = entries.map((row) => `
+      const items = sortRowsByIdDescending(entries).map((row) => `
         <li><b>${escapeHTML(row.title)}</b>: ${escapeHTML(row.role)} (${escapeHTML(row.period)})</li>`).join("");
       return `<div class="teaching-school">${escapeHTML(university)}</div><ul class="teaching-list">${items}</ul>`;
     }).join("");

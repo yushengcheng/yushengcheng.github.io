@@ -1,26 +1,26 @@
 type,id,venue,role,year
-Conference Organizing Committee,1,LLM-Driven Software Testing Workshop (with ChinaSoft),Co-Chair,2026
-Conference Organizing Committee,2,UISE Workshop (with ICSE),Web & Publicity Chair,2026
-Journal Reviewer,1,ACM Transactions on Software Engineering and Methodology (TOSEM),/,/
-Journal Reviewer,2,IEEE Transactions on Software Engineering (TSE),/,/
-Journal Reviewer,3,Journal of Systems & Software (JSS),/,/
-Journal Reviewer,4,Journal of Software: Evolution and Process,/,/
-Journal Reviewer,5,Empirical Software Engineering (EMSE),/,/
-Journal Reviewer,6,International Journal of Human-Computer Interaction (IJHCI),/,/
-Journal Reviewer,7,IEEE Transactions on Reliability (TRel),/,/
-Journal Reviewer,8,IEEE Transactions on Intelligent Vehicles (TIV),/,/
-Conference Technical/Research Track PC Member,1,International Conference on Software Engineering (ICSE),/,2027 (also Shadow PC Area Chair)
-Conference Technical/Research Track PC Member,2,International Conference on the Foundations of Software Engineering (FSE),/,2027
-Conference Technical/Research Track PC Member,3,IEEE/ACM International Conference on Automated Software Engineering (ASE),/,"2025, 2026"
-Conference Technical/Research Track PC Member,4,ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),/,2026
-Conference Technical/Research Track PC Member,5,International Joint Conferences on Artificial Intelligence (IJCAI),/,"2025, 2026"
-Conference Technical/Research Track PC Member,6,IEEE International Conference on Software Maintenance and Evolution (ICSME),/,2026
-Conference Technical/Research Track PC Member,7,ACM Conference on Intelligent User Interfaces (IUI),/,"2025, 2026, 2027"
+Conference Organizing Committee,25,LLM-Driven Software Testing Workshop (with ChinaSoft),Co-Chair,2026
+Conference Organizing Committee,24,UISE Workshop (with ICSE),Web & Publicity Chair,2026
+Journal Reviewer,23,ACM Transactions on Software Engineering and Methodology (TOSEM),/,/
+Journal Reviewer,22,IEEE Transactions on Software Engineering (TSE),/,/
+Journal Reviewer,21,Journal of Systems & Software (JSS),/,/
+Journal Reviewer,20,Journal of Software: Evolution and Process,/,/
+Journal Reviewer,19,Empirical Software Engineering (EMSE),/,/
+Journal Reviewer,18,International Journal of Human-Computer Interaction (IJHCI),/,/
+Journal Reviewer,17,IEEE Transactions on Reliability (TRel),/,/
+Journal Reviewer,16,IEEE Transactions on Intelligent Vehicles (TIV),/,/
+Conference Technical/Research Track PC Member,15,International Conference on Software Engineering (ICSE),/,2027 (also Shadow PC Area Chair)
+Conference Technical/Research Track PC Member,14,International Conference on the Foundations of Software Engineering (FSE),/,2027
+Conference Technical/Research Track PC Member,13,IEEE/ACM International Conference on Automated Software Engineering (ASE),/,"2025, 2026"
+Conference Technical/Research Track PC Member,12,ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),/,2026
+Conference Technical/Research Track PC Member,11,International Joint Conferences on Artificial Intelligence (IJCAI),/,"2025, 2026"
+Conference Technical/Research Track PC Member,10,IEEE International Conference on Software Maintenance and Evolution (ICSME),/,2026
+Conference Technical/Research Track PC Member,9,ACM Conference on Intelligent User Interfaces (IUI),/,"2025, 2026, 2027"
 Conference Technical/Research Track PC Member,8,Mining Software Repositories Conference (MSR),/,2024
-Conference Technical/Research Track PC Member,9,International Workshop on Advances in Mobile App Analysis (A-Mobile),/,2025
-Conference Artifact Evaluation Track PC Member,1,International Conference on Software Engineering (ICSE),/,2024
-Conference Artifact Evaluation Track PC Member,2,ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),/,"2024, 2025"
-External Reviewer,1,"TIFS, JSS, FCS, IET Software, ChinaSoft (2022), ISSRE (2020 2022 2023), ICST (2020 2021 2022), COMPSAC (2021), QRS (2020 2021 2022)",/,/
-Software Testing Contest,1,National Contest on Software Testing,Organizer,2024
-Software Testing Contest,2,National Contest on Software Testing,On-site Coordinator,"2019, 2020, 2023"
-Software Testing Contest,3,IEEE International Contest on Software Testing,On-site Coordinator,2019
+Conference Technical/Research Track PC Member,7,International Workshop on Advances in Mobile App Analysis (A-Mobile),/,2025
+Conference Artifact Evaluation Track PC Member,6,International Conference on Software Engineering (ICSE),/,2024
+Conference Artifact Evaluation Track PC Member,5,ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),/,"2024, 2025"
+External Reviewer,N4,"TIFS, JSS, FCS, IET Software, ChinaSoft (2022), ISSRE (2020 2022 2023), ICST (2020 2021 2022), COMPSAC (2021), QRS (2020 2021 2022)",/,/
+Software Testing Contest,N3,National Contest on Software Testing,Organizer,2024
+Software Testing Contest,N2,National Contest on Software Testing,On-site Coordinator,"2019, 2020, 2023"
+Software Testing Contest,N1,IEEE International Contest on Software Testing,On-site Coordinator,2019

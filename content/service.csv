@@ -1,8 +1,9 @@
 type,id,venue,role,year
-Conference Organizing Committee,25,LLM-Driven Software Testing Workshop (with ChinaSoft),Co-Chair,2026
-Conference Organizing Committee,24,UISE Workshop (with ICSE),Web & Publicity Chair,2026
-Journal Reviewer,23,ACM Transactions on Software Engineering and Methodology (TOSEM),/,/
-Journal Reviewer,22,IEEE Transactions on Software Engineering (TSE),/,/
+Conference Organizing Committee,26,LLM-Driven Software Testing Workshop (with ChinaSoft),Co-Chair,2026
+Conference Organizing Committee,25,UISE Workshop (with ICSE),Web & Publicity Chair,2026
+Journal Reviewer,24,ACM Transactions on Software Engineering and Methodology (TOSEM),/,/
+Journal Reviewer,23,IEEE Transactions on Software Engineering (TSE),/,/
+Journal Reviewer,22,IEEE Transactions on Dependable and Secure Computing (TDSC),/,/
 Journal Reviewer,21,Journal of Systems & Software (JSS),/,/
 Journal Reviewer,20,Journal of Software: Evolution and Process,/,/
 Journal Reviewer,19,Empirical Software Engineering (EMSE),/,/

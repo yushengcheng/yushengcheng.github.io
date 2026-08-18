@@ -289,25 +289,6 @@ summary:focus-visible {
   min-width: 0;
 }
 
-.recruitment-notice {
-  margin: 0 0 14px;
-  padding: 12px 16px;
-  border: 1px solid #c8dce7;
-  border-left: 4px solid var(--accent);
-  border-radius: 8px;
-  color: #24485c;
-  background: #eef6fa;
-  box-shadow: 0 1px 2px rgba(34, 43, 50, 0.04);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-.recruitment-notice a {
-  color: #245b78;
-  font-weight: 800;
-}
-
 .home-block {
   margin: 0 0 14px;
   padding: 15px 18px 17px;
@@ -413,6 +394,30 @@ summary:focus-visible {
 
 .content-section:last-of-type {
   margin-bottom: 0;
+}
+
+.recruitment-section {
+  padding-top: 17px;
+  padding-bottom: 18px;
+  border-color: #c8dce7;
+  background: #f6fafc;
+}
+
+.recruitment-section h2 {
+  margin-bottom: 10px;
+  color: #24485c;
+}
+
+.recruitment-section p {
+  margin: 0;
+  color: #27343d;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.recruitment-section a {
+  color: #245b78;
+  font-weight: 700;
 }
 
 h2 {

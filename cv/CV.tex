@@ -55,9 +55,12 @@
 \newcommand{\awardtag}[1]{\textbf{\textit{\uline{#1}}}}
 
 \newcommand{\publication}[5]{%
+  \begin{samepage}%
   \href{#5}{\textbf{\uline{#1}}}#2\par\nopagebreak[4]
   #3.\par\nopagebreak[4]
-  #4\par\vspace{4.8pt}%
+  #4\par
+  \end{samepage}%
+  \vspace{4.8pt}%
 }
 
 \newcommand{\funding}[4]{%
@@ -76,6 +79,9 @@
   for software engineering.%
 }
 
+\newlength{\summaryblockheight}
+\setlength{\summaryblockheight}{139pt}
+
 \begin{document}
 \thispagestyle{fancy}
 
@@ -88,36 +94,38 @@
   \end{tabular*}\par
 }
 
-\ifwithphoto
-  \vspace{8pt}
-  \noindent
-  \begin{minipage}[t]{0.775\linewidth}
-    \fontsize{12}{17}\selectfont
-    \justifying\summarytext
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.213\linewidth}
-    \vspace{0pt}
-    \raggedleft
-    \includegraphics[width=114.08pt,height=164.94pt,keepaspectratio]{../YSC-CV.jpg}
-  \end{minipage}
-\else
-  \vspace{-2pt}
-  \cvsection{Summary}
-  {\fontsize{12}{17}\selectfont
+\vspace{-2pt}
+\cvsection{Summary}
+\noindent\begin{minipage}[t][\summaryblockheight][t]{\linewidth}
+  \ifwithphoto
+    \begin{minipage}[t]{0.80\linewidth}
+      \fontsize{12}{17}\selectfont
+      \justifying\summarytext
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.18\linewidth}
+      \vspace{0pt}
+      \raggedleft
+      \includegraphics[height=136pt,keepaspectratio]{../YSC-CV.jpg}
+    \end{minipage}
+  \else
+    {\fontsize{12}{17}\selectfont
     \begin{itemize}[leftmargin=1.25em,label=\textbullet,topsep=0pt,itemsep=0pt,parsep=0pt]
       \item \justifying\summarytext
     \end{itemize}
-  }
-\fi
+    }
+    \vfill
+  \fi
+\end{minipage}
 
 \cvsection{Experience}
 \begingroup
+\small
 \renewcommand{\arraystretch}{1.04}
-\begin{tabular}{@{}>{\bfseries\raggedright\arraybackslash}m{0.42\linewidth}@{\hspace{8pt}}>{\itshape\raggedright\arraybackslash}m{0.33\linewidth}@{\hspace{8pt}}>{\raggedleft\arraybackslash}m{0.22\linewidth}@{}}
-Technical University of Munich\newline School of Computation, Information and Technology & Postdoctoral Researcher & Feb. 2025 -- Now\tabularnewline[6pt]
-Nanjing University\newline Software Institute & Research Assistant & Oct. 2024 -- Feb. 2025\tabularnewline[6pt]
-Nanjing University\newline Software Institute & Ph.D.\newline in Software Engineering & Sep. 2020 -- Sep. 2024\tabularnewline[6pt]
-ETH Zurich\newline Department of Computer Science & Visiting Ph.D.\newline in Software Engineering & Oct. 2022 -- Oct. 2023\tabularnewline[6pt]
+\begin{tabular}{@{}>{\bfseries\raggedright\arraybackslash}m{0.505\linewidth}@{\hspace{8pt}}>{\itshape\raggedright\arraybackslash}m{0.26\linewidth}@{\hspace{8pt}}>{\raggedleft\arraybackslash}m{0.205\linewidth}@{}}
+Technical University of Munich\newline School of Computation, Information and Technology & Postdoctoral Researcher & Feb. 2025 -- Now\tabularnewline[8pt]
+Nanjing University\newline Software Institute & Research Assistant & Oct. 2024 -- Feb. 2025\tabularnewline[8pt]
+Nanjing University\newline Software Institute & Ph.D.\newline in Software Engineering & Sep. 2020 -- Sep. 2024\tabularnewline[8pt]
+ETH Zurich\newline Department of Computer Science & Visiting Ph.D.\newline in Software Engineering & Oct. 2022 -- Oct. 2023\tabularnewline[8pt]
 Nanjing University\newline Software Institute & B.Eng.\newline in Software Engineering & Sep. 2016 -- Jun. 2020
 \end{tabular}
 \endgroup
@@ -128,7 +136,7 @@ Nanjing University\newline Software Institute & B.Eng.\newline in Software Engin
 \fontsize{10}{12}\selectfont
 \begin{tabular*}{0.82\linewidth}{@{\extracolsep{\fill}}cccc@{}}
 \textbf{Google Scholar Metrics:} &
-\textbf{Citations:915} &
+\textbf{Citations:948} &
 \textbf{h-index:15} &
 \textbf{i10-index:21}
 \end{tabular*}

@@ -80,9 +80,7 @@
 }
 
 \newlength{\summaryregionheight}
-\newlength{\summarybodyheight}
-\setlength{\summaryregionheight}{181pt}
-\setlength{\summarybodyheight}{139pt}
+\setlength{\summaryregionheight}{140pt}
 
 \begin{document}
 \thispagestyle{fancy}
@@ -96,9 +94,8 @@
   \end{tabular*}\par
 }
 
-\noindent\begin{minipage}[t][\summaryregionheight][t]{\linewidth}
+\noindent\begin{minipage}[b][\summaryregionheight][t]{\linewidth}
   \ifwithphoto
-    \vfill
     \begin{minipage}[c][136pt][c]{0.80\linewidth}
       \fontsize{12}{17}\selectfont
       \justifying\summarytext
@@ -111,14 +108,12 @@
   \else
     \vspace*{-2pt}
     \cvsection{Summary}
-    \noindent\begin{minipage}[t][\summarybodyheight][t]{\linewidth}
-      {\fontsize{12}{17}\selectfont
+    {\fontsize{12}{17}\selectfont
       \begin{itemize}[leftmargin=1.25em,label=\textbullet,topsep=0pt,itemsep=0pt,parsep=0pt]
         \item \justifying\summarytext
       \end{itemize}
-      }
-      \vfill
-    \end{minipage}
+    }
+    \vfill
   \fi
 \end{minipage}
 

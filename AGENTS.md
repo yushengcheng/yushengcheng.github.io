@@ -1,7 +1,7 @@
 # Project publishing workflow
 
 - Use `v2026` as the working and publishing branch for this academic homepage.
-- After completing each requested website or content update, validate the relevant changes, commit only the files belonging to the current request, and push the commit to `origin/v2026` automatically without asking again.
+- After completing every user-requested change within this project, including website, content, and CV artifact updates, validate the relevant changes, commit only the files belonging to the current request, and push the commit to `origin/v2026` automatically without asking again.
 - Before every project commit, update the `Last Updated` date in `index.html` to the actual calendar date of that commit in `YYYY-MM-DD` format, and include `index.html` in the same commit whenever the displayed date changes.
 - Treat this file as the user's standing authorization for those scoped commits and pushes.
 - Never include unrelated local changes in a commit. Leave unrelated changes untouched and report them.

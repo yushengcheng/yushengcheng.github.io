@@ -79,8 +79,10 @@
   for software engineering.%
 }
 
-\newlength{\summaryblockheight}
-\setlength{\summaryblockheight}{139pt}
+\newlength{\summaryregionheight}
+\newlength{\summarybodyheight}
+\setlength{\summaryregionheight}{181pt}
+\setlength{\summarybodyheight}{139pt}
 
 \begin{document}
 \thispagestyle{fancy}
@@ -94,26 +96,29 @@
   \end{tabular*}\par
 }
 
-\vspace{-2pt}
-\cvsection{Summary}
-\noindent\begin{minipage}[t][\summaryblockheight][t]{\linewidth}
+\noindent\begin{minipage}[t][\summaryregionheight][t]{\linewidth}
   \ifwithphoto
-    \begin{minipage}[t]{0.80\linewidth}
+    \vfill
+    \begin{minipage}[c][136pt][c]{0.80\linewidth}
       \fontsize{12}{17}\selectfont
       \justifying\summarytext
     \end{minipage}\hfill
-    \begin{minipage}[t]{0.18\linewidth}
-      \vspace{0pt}
+    \begin{minipage}[c][136pt][c]{0.18\linewidth}
       \raggedleft
-      \includegraphics[height=136pt,keepaspectratio]{../YSC-CV.jpg}
+      \raisebox{3pt}{\includegraphics[height=128pt,keepaspectratio]{../YSC-CV.jpg}}
     \end{minipage}
-  \else
-    {\fontsize{12}{17}\selectfont
-    \begin{itemize}[leftmargin=1.25em,label=\textbullet,topsep=0pt,itemsep=0pt,parsep=0pt]
-      \item \justifying\summarytext
-    \end{itemize}
-    }
     \vfill
+  \else
+    \vspace*{-2pt}
+    \cvsection{Summary}
+    \noindent\begin{minipage}[t][\summarybodyheight][t]{\linewidth}
+      {\fontsize{12}{17}\selectfont
+      \begin{itemize}[leftmargin=1.25em,label=\textbullet,topsep=0pt,itemsep=0pt,parsep=0pt]
+        \item \justifying\summarytext
+      \end{itemize}
+      }
+      \vfill
+    \end{minipage}
   \fi
 \end{minipage}
 
@@ -122,10 +127,10 @@
 \small
 \renewcommand{\arraystretch}{1.04}
 \begin{tabular}{@{}>{\bfseries\raggedright\arraybackslash}m{0.505\linewidth}@{\hspace{8pt}}>{\itshape\raggedright\arraybackslash}m{0.26\linewidth}@{\hspace{8pt}}>{\raggedleft\arraybackslash}m{0.205\linewidth}@{}}
-Technical University of Munich\newline School of Computation, Information and Technology & Postdoctoral Researcher & Feb. 2025 -- Now\tabularnewline[8pt]
-Nanjing University\newline Software Institute & Research Assistant & Oct. 2024 -- Feb. 2025\tabularnewline[8pt]
-Nanjing University\newline Software Institute & Ph.D.\newline in Software Engineering & Sep. 2020 -- Sep. 2024\tabularnewline[8pt]
-ETH Zurich\newline Department of Computer Science & Visiting Ph.D.\newline in Software Engineering & Oct. 2022 -- Oct. 2023\tabularnewline[8pt]
+Technical University of Munich\newline School of Computation, Information and Technology & Postdoctoral Researcher & Feb. 2025 -- Now\tabularnewline[12pt]
+Nanjing University\newline Software Institute & Research Assistant & Oct. 2024 -- Feb. 2025\tabularnewline[12pt]
+Nanjing University\newline Software Institute & Ph.D.\newline in Software Engineering & Sep. 2020 -- Sep. 2024\tabularnewline[12pt]
+ETH Zurich\newline Department of Computer Science & Visiting Ph.D.\newline in Software Engineering & Oct. 2022 -- Oct. 2023\tabularnewline[12pt]
 Nanjing University\newline Software Institute & B.Eng.\newline in Software Engineering & Sep. 2016 -- Jun. 2020
 \end{tabular}
 \endgroup

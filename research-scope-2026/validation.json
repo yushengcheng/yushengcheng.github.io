@@ -1,0 +1,88 @@
+[
+  {
+    "name": "a-roulette.html",
+    "errors": [],
+    "missing": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1920,
+      "height": 1080
+    },
+    "compact": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "fits": true
+    }
+  },
+  {
+    "name": "b-reference.html",
+    "errors": [],
+    "missing": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1920,
+      "height": 1080
+    },
+    "compact": {
+      "x": 0,
+      "y": 55,
+      "width": 960,
+      "height": 540,
+      "fits": true
+    }
+  },
+  {
+    "name": "c-designer.html",
+    "errors": [],
+    "missing": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1920,
+      "height": 1080
+    },
+    "compact": {
+      "x": 0,
+      "y": 55,
+      "width": 960,
+      "height": 540,
+      "fits": true
+    }
+  },
+  {
+    "name": "index.html",
+    "errors": [],
+    "images": [
+      {
+        "src": "design-demos/a-roulette.png",
+        "loaded": true
+      },
+      {
+        "src": "design-demos/b-reference.png",
+        "loaded": true
+      },
+      {
+        "src": "design-demos/c-designer.png",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "design-demos/a-roulette.html",
+      "design-demos/a-roulette.html",
+      "design-demos/a-roulette.png",
+      "design-demos/b-reference.html",
+      "design-demos/b-reference.html",
+      "design-demos/b-reference.png",
+      "design-demos/c-designer.html",
+      "design-demos/c-designer.html",
+      "design-demos/c-designer.png"
+    ]
+  }
+]

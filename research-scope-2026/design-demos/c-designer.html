@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>面向智能体时代的可信软件交互与智能质量保障</title>
+<style>
+:root{--paper:#f5f3ec;--ink:#223c40;--blue:#2f617c;--rust:#9f5030;--muted:#4f6264;--line:#a8b4b0;--soft:#e7ece6;--white:#fffef9}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:#dedfd9;font-family:"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}#stage{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}#scope{position:relative;width:1920px;height:1080px;background:var(--paper);overflow:hidden;transform-origin:0 0}svg.lines{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:none}.en{font-family:"Avenir Next","Trebuchet MS",sans-serif;font-weight:500}.position{position:absolute}.intro{left:64px;top:37px;font-size:29px;letter-spacing:3px;font-weight:500}.title{left:59px;top:82px;margin:0;font-size:53px;letter-spacing:1px;line-height:1.18;font-weight:650}.goal{left:1495px;top:43px;border-left:2px solid var(--ink);padding-left:27px}.eyebrow{font-size:20px;letter-spacing:2px;color:var(--muted);line-height:1.4}.goal .cn{font-size:41px;font-weight:650;line-height:1.35}.goal .en{font-size:25px;line-height:1.3}.lane-label{background:var(--paper);padding:0 22px;font-size:28px;font-weight:600;line-height:1.4;white-space:nowrap}.lane-a{top:181px;left:722px;color:var(--blue)}.lane-b{top:244px;left:722px;color:var(--rust)}.endpoint{top:224px;font-size:25px;font-weight:650;line-height:1.35;letter-spacing:1px;background:var(--paper);padding:0 18px}.endpoint-left{left:94px}.endpoint-right{right:91px}.security-label{left:89px;top:341px}.direction-number{font-family:"Avenir Next","Trebuchet MS",sans-serif;font-size:23px;font-weight:650;color:var(--muted);display:inline-block;vertical-align:2px;margin-right:13px}.cn-title{font-size:29px;line-height:1.35;font-weight:650;letter-spacing:.2px}.en-title{font-size:20px;line-height:1.5;color:var(--muted);margin-top:3px}.security-en{margin-left:47px;font-size:21px}.security-role{left:935px;top:343px;font-size:20px;letter-spacing:1px;color:var(--muted)}.security-detail{left:935px;top:375px;font-size:25px;letter-spacing:1px}.object{left:95px;top:444px}.object .cn{font-size:34px;line-height:1.3;font-weight:650;letter-spacing:1px}.object .en{font-size:27px;margin-left:15px}.object-context{left:95px;top:521px;font-size:20px;color:var(--muted)}.qa{left:784px;top:439px}.qa .desc{font-size:24px;line-height:1.4;margin-top:8px}.execution{left:95px;top:574px;width:602px}.execution .en-title{max-width:578px}.capability{left:95px;top:655px;font-size:22px;line-height:1.45;color:var(--blue)}.capability .en{display:block;font-size:21px;margin-top:2px}.step{top:580px;width:211px;height:62px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--blue);background:var(--white);font-size:26px;font-weight:600;color:var(--blue)}.step-1{left:750px}.step-2{left:1022px}.step-3{left:1294px}.step-4{left:1566px}.failure{left:1145px;top:664px;background:var(--paper);padding:0 18px;color:var(--blue);font-size:23px;font-weight:600}.failure-condition{left:1487px;top:656px;color:var(--muted);font-size:19px}.runtime{left:95px;top:764px}.runtime .en-title{font-size:20px}.runtime-desc{left:879px;top:785px;font-size:24px;line-height:1.4}.runtime-desc span{color:var(--muted);margin-left:17px}.improvement-return{left:1682px;top:707px;padding:0 12px;background:var(--paper);font-size:20px;color:var(--muted)}.improvement-caption{left:96px;top:864px;font-size:20px;letter-spacing:2px;color:var(--muted)}.engineering{left:95px;top:892px;width:777px}.collaboration{left:957px;top:892px;width:835px}.engineering .en-title,.collaboration .en-title{font-size:19.5px;line-height:1.35;margin-top:3px;white-space:nowrap}.foundation-desc{font-size:22px;line-height:1.4;margin-top:8px}.foundation-desc .light{color:var(--muted)}.small-arrow{color:var(--blue);margin:0 8px}.collaboration .cn-title{font-size:28px;line-height:1.22}.engineering .cn-title{font-size:28px;line-height:1.22}.frame-legend{position:absolute;right:69px;top:1029px;font-size:17px;color:var(--muted);display:none}
+@media print{@page{size:1920px 1080px;margin:0}html,body{width:1920px;height:1080px;background:var(--paper);overflow:hidden}#stage{position:static;width:1920px!important;height:1080px!important;transform:none}#scope{transform:none!important}}
+</style>
+</head>
+<body>
+<div id="stage"><main id="scope" aria-label="面向智能体时代的可信软件交互与智能质量保障研究范围关系图">
+<!-- Form is derived from research roles, not an assumed ranking of the six numbered topics.
+     Two counter-directional quality routes share one system below. The enclosing security frame
+     applies to every internal relation; it is simultaneously research direction 02.
+     Interaction is the shared research object. Execution, verification, and improvement use
+     differently shaped structural regions to preserve their different meanings.
+     The example human–agent–software relation is illustrative, not an exhaustive scope claim.
+     Only the 03 chain is a task process. 01–06 are labels, not sequential phases.
+     The failure-recovery loop is conditional; runtime checks are a separate assurance rail. -->
+<svg class="lines" viewBox="0 0 1920 1080" aria-hidden="true">
+<defs>
+<marker id="blue-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#2f617c" stroke-width="1.5"/></marker>
+<marker id="rust-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#9f5030" stroke-width="1.5"/></marker>
+<marker id="ink-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#4f6264" stroke-width="1.5"/></marker>
+</defs>
+<!-- Equal width, equal weight: the two quality routes are peers. -->
+<path d="M1786 212 H132" fill="none" stroke="#2f617c" stroke-width="3" marker-end="url(#blue-arrow)"/>
+<path d="M133 273 H1786" fill="none" stroke="#9f5030" stroke-width="3" marker-end="url(#rust-arrow)"/>
+<path d="M146 226 V259 M1774 226 V259" stroke="#a8b4b0" stroke-width="1.4"/>
+<!-- Enclosing constraint, with a distinct research identity in its upper band. -->
+<rect x="57" y="321" width="1806" height="708" rx="0" fill="none" stroke="#223c40" stroke-width="2.5"/>
+<path d="M57 420 H1863" stroke="#223c40" stroke-width="1.5"/>
+<path d="M883 342 V399" stroke="#a8b4b0" stroke-width="1.4"/>
+<!-- The common interaction object and its quality criterion occupy one full-width band. -->
+<rect x="77" y="437" width="1766" height="115" fill="#e7ece6"/>
+<path d="M727 454 V534" stroke="#a8b4b0" stroke-width="1.5"/>
+<path d="M1400 553 V575" stroke="#2f617c" stroke-width="2" marker-end="url(#blue-arrow)"/>
+<!-- Intent-driven execution, and conditional recovery back to planning. -->
+<path d="M968 611 H1008" stroke="#2f617c" stroke-width="2" fill="none" marker-end="url(#blue-arrow)"/>
+<path d="M1240 611 H1280" stroke="#2f617c" stroke-width="2" fill="none" marker-end="url(#blue-arrow)"/>
+<path d="M1512 611 H1552" stroke="#2f617c" stroke-width="2" fill="none" marker-end="url(#blue-arrow)"/>
+<path d="M1672 643 V686 H1128 V648" stroke="#2f617c" stroke-width="2" fill="none" marker-end="url(#blue-arrow)"/>
+<!-- Runtime assurance is linked to live behavior, independently from result verification. -->
+<path d="M1399 748 V650" stroke="#4f6264" stroke-width="1.6" fill="none" stroke-dasharray="5 5" marker-end="url(#ink-arrow)"/>
+<path d="M95 745 H1794 M95 849 H1794" stroke="#a8b4b0" stroke-width="1.4"/>
+<rect x="77" y="758" width="7" height="76" fill="#2f617c"/>
+<!-- The two improvement practices share a foundation, not exclusive sides of the two routes. -->
+<path d="M351 881 H1794" stroke="#a8b4b0" stroke-width="1.3"/>
+<path d="M911 905 V1000" stroke="#a8b4b0" stroke-width="1.3"/>
+<path d="M1812 977 H1829 V722 H1084 V650" stroke="#4f6264" stroke-width="1.6" fill="none" marker-end="url(#ink-arrow)"/>
+</svg>
+
+<div class="position intro">面向智能体时代的</div>
+<h1 class="position title">可信软件交互与智能质量保障</h1>
+<div class="position goal"><div class="eyebrow">核心目标</div><div class="cn">可信</div><div class="en">Trustworthy</div></div>
+
+<div class="position lane-label lane-a">通过智能体提升软件质量</div>
+<div class="position lane-label lane-b">通过软件工程保障智能体质量</div>
+<div class="position endpoint endpoint-left">软件</div>
+<div class="position endpoint endpoint-right">智能体</div>
+
+<section class="position security-label" aria-label="研究方向02 安全与可控性">
+<div class="cn-title"><span class="direction-number">02</span>智能体软件的安全与可控性</div>
+<div class="en en-title security-en">Security &amp; Controllability</div>
+</section>
+<div class="position security-role">贯穿所有研究活动的约束 · 安全可控</div>
+<div class="position security-detail">行为边界 · 权限约束 · 风险控制 · 人类监督与接管</div>
+
+<div class="position object"><div class="eyebrow">特色研究对象</div><div class="cn">交互 <span class="en">Interaction</span></div></div>
+<div class="position object-context">人与智能体、智能体与软件等交互关系</div>
+<section class="position qa" aria-label="研究方向01 软件交互质量保障">
+<div class="cn-title"><span class="direction-number">01</span>软件交互质量保障</div>
+<div class="en en-title">Software Interaction Quality Assurance</div>
+<div class="desc">过程与结果正确可靠，满足用户意图与业务约束</div>
+</section>
+
+<section class="position execution" aria-label="研究方向03 意图驱动的智能任务执行">
+<div class="cn-title"><span class="direction-number">03</span>意图驱动的智能任务执行</div>
+<div class="en en-title">Intent-Driven Intelligent Task Execution</div>
+</section>
+<div class="position capability">关键能力 · 智能执行<span class="en">Intelligent Execution</span></div>
+<div class="position step step-1">意图理解</div>
+<div class="position step step-2">任务规划</div>
+<div class="position step step-3">交互执行</div>
+<div class="position step step-4">结果验证</div>
+<div class="position failure-condition">执行或验证失败时</div>
+<div class="position failure">失败恢复</div>
+
+<section class="position runtime" aria-label="研究方向04 交互行为验证与运行时保障">
+<div class="cn-title"><span class="direction-number">04</span>交互行为验证与运行时保障</div>
+<div class="en en-title">Interaction Verification and Runtime Assurance</div>
+</section>
+<div class="position runtime-desc">行为检查 · 异常检测 · 动态干预 <span>让自动化可验证、可约束</span></div>
+
+<div class="position improvement-return">持续改进</div>
+<div class="position improvement-caption">持续质量改进</div>
+<section class="position engineering" aria-label="研究方向05 智能体软件质量工程">
+<div class="cn-title"><span class="direction-number">05</span>智能体软件质量工程</div>
+<div class="en en-title">Quality Engineering for Agent-Integrated Software</div>
+<div class="foundation-desc">以软件工程方法测试、评估、诊断与改进<br><span class="light">提升可靠性、鲁棒性与适应性</span></div>
+</section>
+<section class="position collaboration" aria-label="研究方向06 人机协同的软件质量提升">
+<div class="cn-title"><span class="direction-number">06</span>人机协同的软件质量提升</div>
+<div class="en en-title">Human–Agent Collaborative Software Quality Improvement</div>
+<div class="foundation-desc">人的知识、判断与反馈 <span class="small-arrow">↔</span> 智能体的分析与执行<br><span class="light">共同支持软件缺陷发现、修复与持续改进</span></div>
+</section>
+</main></div>
+<script>
+(()=>{const root=document.getElementById('scope'),stage=document.getElementById('stage');function fit(){const scale=Math.min(window.innerWidth/1920,window.innerHeight/1080);root.style.transform=`scale(${scale})`;stage.style.width=`${1920*scale}px`;stage.style.height=`${1080*scale}px`;}addEventListener('resize',fit);fit();})();
+</script>
+</body>
+</html>

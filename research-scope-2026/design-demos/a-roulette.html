@@ -1,0 +1,179 @@
+<!doctype html>
+<!--
+Assumptions: This is an initial direction study for a Chinese academic research-scope
+figure, shown at 1920×1080 and read at presentation distance. It is not an approved
+final direction. All content comes from ../design-spec.md. No numerical results,
+maturity ranking, exclusive partition, or exhaustive interaction taxonomy is implied.
+
+Roulette: date +%S returned 43. 43 % 20 + 1 = 4. Infographic style 4 is Magazine
+Pop Data (Businessweek). The style supports static HTML without imagery; no reroute.
+Its yellow/black contrast, conclusion-led headline, large typographic differences,
+and full-width relationships are retained. Tiny captions and extreme 10:1 type
+ratios are intentionally adapted to the spec's 19px minimum and projection use.
+
+Form derivation: The two reciprocal quality ambitions become equal opposing
+arrows. Interaction is the common object above the research space. Security is a
+real enclosing frame, while retaining the full identity of research direction 02.
+Execution occupies the center, with its own local process and recovery loop.
+Runtime assurance connects sideways to execution and is distinct from result
+verification. Quality engineering and human-agent collaboration jointly support
+ongoing improvement below. Numerals identify research themes, never steps.
+
+Five form questions: narrative role = research vision overview; audience distance
+= laptop and projected slide; visual temperature = precise, assertive, editorial;
+capacity = title + reciprocal band + common-object band + enclosed three-part
+research field + two broad improvement foundations; motif = reciprocal quality
+gain through constrained interaction. Every line communicates a relationship.
+No external assets, placeholder content, generated images, or animations.
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>面向智能体时代的可信软件交互与智能质量保障</title>
+<style>
+:root { --ink:#181818; --paper:#fffef9; --yellow:#f4e743; --muted:#474740; }
+* { box-sizing:border-box; }
+html,body { margin:0; width:100%; min-height:100%; }
+body { background:#deded8; color:var(--ink); font-family:"Avenir Next","PingFang SC","Microsoft YaHei",sans-serif; }
+#stage { position:relative; margin:0 auto; overflow:hidden; }
+#scope { position:relative; width:1920px; height:1080px; overflow:hidden; transform-origin:top left; background:var(--paper); }
+header { position:absolute; inset:44px 72px auto; height:145px; }
+h1 { margin:0; font-size:60px; font-weight:800; letter-spacing:-2px; line-height:1.18; }
+h1 .pre { display:block; font-size:36px; font-weight:600; letter-spacing:1px; margin-bottom:11px; }
+.goal { position:absolute; right:0; top:0; width:324px; height:144px; padding:16px 25px; background:var(--ink); color:var(--paper); }
+.goal .role { font-size:22px; }
+.goal strong { display:inline-block; font-size:54px; line-height:1.1; margin:8px 15px 0 0; font-weight:700; }
+.goal .en { font-size:21px; color:var(--yellow); }
+.position { position:absolute; left:72px; right:72px; top:218px; height:109px; }
+.position .band { position:relative; height:54px; display:flex; align-items:center; justify-content:center; }
+.position .first { background:var(--yellow); }
+.position .second { border-bottom:3px solid var(--ink); }
+.position .words { position:relative; padding:0 28px; font-size:33px; font-weight:650; line-height:1; background:var(--yellow); z-index:2; }
+.position .second .words { background:var(--paper); }
+.position svg { position:absolute; width:100%; height:54px; left:0; top:0; }
+.object { position:absolute; left:72px; right:72px; top:356px; height:66px; display:flex; align-items:center; border-top:1px solid var(--ink); }
+.role { font-size:22px; letter-spacing:1px; }
+.object .role { width:204px; }
+.object strong { font-size:42px; letter-spacing:1px; font-weight:650; }
+.object .en { font-size:27px; margin-left:22px; }
+.examples { margin-left:auto; font-size:24px; color:var(--muted); }
+.examples span { margin-right:22px; font-size:20px; }
+.field { position:absolute; left:72px; top:446px; width:1776px; height:594px; border:4px solid var(--ink); }
+.boundary { position:absolute; left:-4px; right:-4px; top:-4px; height:106px; background:var(--ink); color:var(--paper); display:flex; align-items:center; padding:13px 27px; }
+.boundary .number { color:var(--yellow); font-size:52px; line-height:1; font-weight:750; width:91px; }
+.boundary h2 { margin:0 0 7px; font-size:31px; line-height:1.1; font-weight:650; }
+.boundary .en { font-size:22px; color:var(--yellow); }
+.boundary .constraint { margin-left:auto; padding-left:30px; border-left:1px solid #929287; width:700px; font-size:25px; line-height:1.45; }
+.boundary .constraint .label { font-size:20px; margin-right:20px; color:var(--yellow); }
+.topic { position:absolute; }
+.num { font-size:40px; font-weight:750; line-height:1; }
+h2 { font-size:30px; font-weight:650; letter-spacing:-.5px; line-height:1.24; }
+.topic .en { font-size:21px; line-height:1.25; }
+.topic p { font-size:25px; line-height:1.46; margin:19px 0 0; }
+.quality { left:27px; top:129px; width:430px; }
+.quality .heading { display:flex; gap:19px; align-items:baseline; }
+.quality h2 { margin:0; }
+.quality .en { margin:12px 0 0 69px; }
+.quality p { margin:20px 0 0 69px; }
+.execution { left:491px; top:123px; width:775px; height:251px; background:var(--yellow); padding:17px 22px; }
+.execution .capability { position:absolute; top:181px; left:22px; width:230px; font-size:19px; line-height:1.3; }
+.execution .capability b { display:inline; font-size:24px; margin-left:6px; }
+.execution .capability .en { display:block; font-size:19px; margin:5px 0 0; }
+.execution .heading { display:flex; gap:18px; align-items:baseline; }
+.execution h2 { margin:0; }
+.execution .en { margin:8px 0 0 67px; }
+.process { position:absolute; left:22px; right:22px; top:112px; height:121px; }
+.process .steps { display:flex; justify-content:space-between; position:absolute; width:100%; top:0; }
+.step { position:relative; background:var(--paper); border:2px solid var(--ink); text-align:center; width:154px; height:49px; display:flex; align-items:center; justify-content:center; font-size:25px; font-weight:550; z-index:2; }
+.process svg { position:absolute; left:0; top:0; width:731px; height:121px; }
+.recovery { position:absolute; left:397px; top:80px; padding:3px 13px; background:var(--yellow); font-size:24px; z-index:2; }
+.runtime { left:1320px; top:129px; width:399px; }
+.runtime .heading { display:flex; gap:17px; align-items:baseline; }
+.runtime h2 { margin:0; font-size:29px; }
+.runtime .en { margin:10px 0 0 68px; }
+.runtime p { margin:17px 0 0 68px; font-size:24px; }
+.runtime-link { position:absolute; left:1266px; top:233px; width:52px; height:32px; }
+.foundations { position:absolute; left:27px; right:27px; top:402px; height:137px; display:grid; grid-template-columns:1fr 1fr; gap:43px; border-top:2px solid var(--ink); padding-top:19px; }
+.foundation { position:relative; padding-left:68px; }
+.foundation:first-child { border-right:1px solid var(--ink); padding-right:25px; }
+.foundation .num { position:absolute; left:0; top:1px; }
+.foundation h2 { font-size:29px; margin:0 0 7px; }
+.foundation .en { font-size:20px; line-height:1.3; }
+.foundation p { font-size:24px; line-height:1.4; margin:10px 0 0; }
+.foundation .en.long { font-size:20px; letter-spacing:-.25px; }
+.tiny-rule { position:absolute; left:0; top:42px; width:34px; height:149px; background:var(--yellow); }
+@media print { @page { size:1920px 1080px; margin:0; } html,body,#stage { width:1920px!important; height:1080px!important; margin:0!important; background:var(--paper); } #scope { transform:none!important; } * { print-color-adjust:exact; -webkit-print-color-adjust:exact; } }
+</style>
+</head>
+<body>
+<div id="stage"><main id="scope" aria-label="研究范围总览图：面向智能体时代的可信软件交互与智能质量保障">
+  <div class="tiny-rule" aria-hidden="true"></div>
+  <header>
+    <h1><span class="pre">面向智能体时代的</span>可信软件交互与智能质量保障</h1>
+    <div class="goal"><div class="role">核心目标</div><strong>可信</strong><span class="en">Trustworthy</span></div>
+  </header>
+
+  <section class="position" aria-label="双向定位">
+    <div class="band first"><svg viewBox="0 0 1776 54" aria-hidden="true"><path d="M28 27 H1726" fill="none" stroke="#181818" stroke-width="3"/><path d="M1726 17 L1745 27 L1726 37 Z" fill="#181818"/></svg><div class="words">通过智能体提升软件质量</div></div>
+    <div class="band second"><svg viewBox="0 0 1776 54" aria-hidden="true"><path d="M50 27 H1748" fill="none" stroke="#181818" stroke-width="3"/><path d="M50 17 L31 27 L50 37 Z" fill="#181818"/></svg><div class="words">通过软件工程保障智能体质量</div></div>
+  </section>
+
+  <section class="object" aria-label="特色研究对象">
+    <span class="role">特色研究对象</span><strong>交互</strong><span class="en">Interaction</span>
+    <div class="examples"><span>交互场景示例</span>人与智能体&nbsp; · &nbsp;智能体与软件</div>
+  </section>
+
+  <section class="field" aria-label="六个相互关联的研究方向，安全与可控性构成贯穿约束">
+    <div class="boundary">
+      <span class="number">02</span><div><h2>智能体软件的安全与可控性</h2><div class="en">Security &amp; Controllability</div></div>
+      <div class="constraint"><span class="label">贯穿约束</span>安全可控<br>行为边界 · 权限约束 · 风险控制 · 人类监督与接管</div>
+    </div>
+
+    <article class="topic quality" aria-label="研究方向01 软件交互质量保障">
+      <div class="heading"><span class="num">01</span><h2>软件交互质量保障</h2></div>
+      <div class="en">Software Interaction<br>Quality Assurance</div>
+      <p>过程与结果正确可靠，<br>满足用户意图<br>与业务约束</p>
+    </article>
+
+    <article class="topic execution" aria-label="研究方向03 意图驱动的智能任务执行">
+      <div class="heading"><span class="num">03</span><h2>意图驱动的智能任务执行</h2></div>
+      <div class="en">Intent-Driven Intelligent Task Execution</div>
+      <div class="process" aria-label="意图理解、任务规划、交互执行、结果验证，并通过失败恢复回到规划">
+        <svg viewBox="0 0 731 121" aria-hidden="true"><defs><marker id="exec-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#181818"/></marker></defs><g stroke="#181818" stroke-width="2.3" fill="none" marker-end="url(#exec-arrow)"><path d="M154 25H185"/><path d="M346 25H377"/><path d="M539 25H570"/><path d="M654 49 V99 H272 V52"/></g></svg>
+        <div class="steps"><span class="step">意图理解</span><span class="step">任务规划</span><span class="step">交互执行</span><span class="step">结果验证</span></div>
+        <div class="recovery">失败恢复</div>
+      </div>
+      <div class="capability">关键能力<b>智能执行</b><span class="en">Intelligent Execution</span></div>
+    </article>
+
+    <svg class="runtime-link" viewBox="0 0 52 32" aria-hidden="true"><path d="M52 16H8" stroke="#181818" stroke-width="2.3"/><path d="M11 10L1 16L11 22Z" fill="#181818"/></svg>
+    <article class="topic runtime" aria-label="研究方向04 交互行为验证与运行时保障">
+      <div class="heading"><span class="num">04</span><h2>交互行为验证<br>与运行时保障</h2></div>
+      <div class="en">Interaction Verification<br>and Runtime Assurance</div>
+      <p>行为检查 · 异常检测<br>动态干预，让自动化<br>可验证、可约束</p>
+    </article>
+
+    <div class="foundations">
+      <article class="foundation" aria-label="研究方向05 智能体软件质量工程">
+        <span class="num">05</span><h2>智能体软件质量工程</h2>
+        <div class="en">Quality Engineering for Agent-Integrated Software</div>
+        <p>以软件工程方法测试、评估、诊断与改进，<br>提升可靠性、鲁棒性和适应性</p>
+      </article>
+      <article class="foundation" aria-label="研究方向06 人机协同的软件质量提升">
+        <span class="num">06</span><h2>人机协同的软件质量提升</h2>
+        <div class="en long">Human–Agent Collaborative Software Quality Improvement</div>
+        <p>结合人的知识、判断与反馈和智能体的分析、执行能力，<br>支持软件缺陷发现、修复与持续改进</p>
+      </article>
+    </div>
+  </section>
+</main></div>
+<script>
+(function(){
+  const scope=document.getElementById('scope'), stage=document.getElementById('stage');
+  function fit(){ const s=Math.min(window.innerWidth/1920,window.innerHeight/1080); scope.style.transform='scale('+s+')'; stage.style.width=(1920*s)+'px'; stage.style.height=(1080*s)+'px'; }
+  window.addEventListener('resize',fit); fit();
+})();
+</script>
+</body>
+</html>

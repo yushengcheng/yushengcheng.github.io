@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="scope" viewBox="0 0 1320 780" role="img" aria-labelledby="scope-title scope-desc">
+<svg xmlns="http://www.w3.org/2000/svg" id="scope" viewBox="0 0 1320 700" role="img" aria-labelledby="scope-title scope-desc">
 <metadata id="icon-license">ISC License
 
 Copyright (c) 2026 Lucide Icons and Contributors
@@ -43,8 +43,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </metadata>
-<title id="scope-title">An integrated assurance framework for trustworthy interaction</title>
-<desc id="scope-desc">Quality assurance contains the shared security constraint, runtime verification, and execution capability. Quality engineering and human-agent collaboration exchange feedback with the common interaction object through two complementary research paths.</desc>
+<title id="scope-title">Six complementary research directions for trustworthy software interaction</title>
+<desc id="scope-desc">Six equal peer cards form a hexagonal relationship network. A neutral header states the two reciprocal research focuses and shared object, goal, constraint, and capability. Eight labeled arrows represent complementary topic contributions, not chronological stages or causal findings.</desc>
 <defs>
 <symbol id="UserRound" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
 <symbol id="Bot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol>
@@ -58,77 +58,69 @@ SOFTWARE.
 <symbol id="ArrowLeftRight" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></symbol>
 <symbol id="Target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
 <symbol id="ScanLine" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 12h10"/></symbol>
-<marker id="blue-arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto-start-reverse"><path d="M2 1 8 5 2 9" fill="none" stroke="#376989" stroke-width="1.5" stroke-linejoin="round"/></marker>
-<marker id="teal-arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto-start-reverse"><path d="M2 1 8 5 2 9" fill="none" stroke="#397970" stroke-width="1.5" stroke-linejoin="round"/></marker>
+<marker id="network-arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto"><path d="M2 1 8 5 2 9" fill="none" stroke="#4b778b" stroke-width="1.5" stroke-linejoin="round"/></marker>
 <style>
-text{font-family:Helvetica,Arial,sans-serif;fill:#24343f}
-.direction{font-size:26px;font-weight:500}
-.role{font-size:19px;fill:#596b78}
-.actor{font-size:24px;text-anchor:middle}
-.icon{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:#376989}
-.path{fill:none;stroke:#376989;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.feedback{fill:none;stroke:#397970;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.edge-label{font-size:20px;text-anchor:middle}
+text{font-family:Helvetica,Arial,sans-serif;fill:#263d49}
+.research-card&gt;rect{fill:#f6fafc;stroke:#88a5b5;stroke-width:1.6}
+.direction{font-size:23px;font-weight:500}
+.icon{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;color:#3b7288}
+.relation path{fill:none;stroke:#4b778b;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#network-arrow)}
+.relation text{font-size:18px;fill:#416777}
+.focus{font-size:24px;font-weight:500;text-anchor:middle}
+.context-label{font-size:15px;fill:#6d808a;text-anchor:middle}
+.context-value{font-size:20px;text-anchor:middle}
 </style>
 </defs>
-<rect width="1320" height="780" fill="#fff"/>
-<g id="direction-1">
-<rect x="24" y="24" width="1272" height="732" rx="18" fill="#fcfdfe" stroke="#6f899e" stroke-width="1.8"/>
-<use class="icon" href="#CircleCheck" x="52" y="48" width="40" height="40"/>
-<text class="direction" x="110" y="77">Software Interaction Quality Assurance</text>
-<rect x="826" y="44" width="446" height="48" rx="13" fill="#e9f3f0" stroke="#a2c1b9" stroke-width="1.5"/>
-<text class="role" x="845" y="75" style="fill:#397970">Goal</text>
-<use class="icon" href="#Target" x="898" y="53" width="30" height="30" style="color:#397970"/>
-<text x="941" y="76" font-size="24" style="fill:#315f59">Trustworthy Interaction</text>
+<rect width="1320" height="700" fill="#fff"/>
+<rect x="12" y="12" width="1296" height="676" rx="20" fill="#fff" stroke="#ccd7de" stroke-width="1.2"/>
+<g id="shared-context">
+<rect x="28" y="28" width="1264" height="119" rx="13" fill="#f1f6f7"/>
+<text class="focus" x="311" y="60" fill="#39796f">Agents for Software Quality</text>
+<text class="focus" x="947" y="60">Software Engineering for Agent Quality</text>
+<g stroke="#54818b" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M548 48H675l-6-5M675 48l-6 5M675 62H548l6-5M548 62l6 5"/></g>
+<text class="context-label" x="190" y="96">Object</text><text class="context-value" x="190" y="125">Software Interaction</text>
+<text class="context-label" x="505" y="96">Goal</text><text class="context-value" x="505" y="125">Trustworthiness</text>
+<text class="context-label" x="820" y="96">Constraint</text><text class="context-value" x="820" y="125">Security &amp; Control</text>
+<text class="context-label" x="1135" y="96">Capability</text><text class="context-value" x="1135" y="125">Intelligent Execution</text>
 </g>
-<g id="direction-2">
-<rect x="46" y="110" width="1228" height="624" rx="16" fill="#f5f8fa" stroke="#8ca1af" stroke-width="1.8"/>
-<use class="icon" href="#ShieldCheck" x="70" y="128" width="34" height="34"/>
-<text class="direction" x="119" y="154">Security &amp; Controllability</text>
-<rect x="1103" y="126" width="147" height="34" rx="10" fill="#e6edf1"/>
-<text class="role" x="1176.5" y="150" text-anchor="middle">Constraint</text>
+<g id="complementary-relations">
+<g class="relation" data-source="D2" data-target="D4" data-label="Guides"><path d="M594 247H726"/><text x="660" y="237" text-anchor="middle">Guides</text></g>
+<g class="relation" data-source="D2" data-target="D3" data-label="Constrains"><path d="M294 317V349"/><text x="308" y="338">Constrains</text></g>
+<g class="relation" data-source="D4" data-target="D5" data-label="Informs"><path d="M1018 317V349"/><text x="1004" y="338" text-anchor="end">Informs</text></g>
+<g class="relation" data-source="D4" data-target="D3" data-label="Monitors"><path d="M760 317V378H378"/><text x="569" y="367" text-anchor="middle">Monitors</text></g>
+<g class="relation" data-source="D5" data-target="D3" data-label="Refines"><path d="M942 446H378"/><text x="660" y="435" text-anchor="middle">Refines</text></g>
+<g class="relation" data-source="D5" data-target="D1" data-label="Supports"><path d="M1018 489V521"/><text x="1004" y="511" text-anchor="end">Supports</text></g>
+<g class="relation" data-source="D3" data-target="D6" data-label="Supports"><path d="M294 489V521"/><text x="308" y="511">Supports</text></g>
+<g class="relation" data-source="D6" data-target="D1" data-label="Supports"><path d="M594 591H726"/><text x="660" y="580" text-anchor="middle">Supports</text></g>
 </g>
-<g id="direction-4">
-<rect x="70" y="180" width="1180" height="322" rx="15" fill="#eaf2f7" stroke="#89a9bf" stroke-width="1.8"/>
-<use class="icon" href="#ListChecks" x="94" y="196" width="34" height="34"/>
-<text class="direction" x="144" y="222">Interaction Verification and Runtime Assurance</text>
+<g class="research-card" data-direction="D2">
+<rect x="244" y="177" width="350" height="140" rx="15"/>
+<use class="icon" href="#ShieldCheck" x="262" y="231" width="32" height="32"/>
+<text class="direction" x="309" y="241"><tspan x="309" y="241">Security &amp;</tspan><tspan x="309" y="269">Controllability</tspan></text>
 </g>
-<g id="direction-3">
-<rect x="94" y="248" width="1132" height="230" rx="14" fill="#fff" stroke="#6c94b0" stroke-width="1.8"/>
-<use class="icon" href="#Workflow" x="115" y="263" width="33" height="33"/>
-<text class="direction" x="162" y="289">Intent-Driven Intelligent Task Execution</text>
-<rect x="1066" y="262" width="138" height="34" rx="10" fill="#eaf2f7"/>
-<text class="role" x="1135" y="286" text-anchor="middle">Capability</text>
-<rect x="112" y="314" width="1096" height="140" rx="12" fill="#f8fbfd" stroke="#b7cbd8" stroke-width="1.5"/>
-<text class="role" x="138" y="354">Object</text>
-<text x="138" y="387" font-size="24">Interaction</text>
-<path d="M289 334V432" fill="none" stroke="#cad8e1" stroke-width="1.5"/>
-<use class="icon" href="#UserRound" x="411" y="336" width="42" height="42"/>
-<use class="icon" href="#Bot" x="724" y="336" width="42" height="42"/>
-<use class="icon" href="#AppWindow" x="1037" y="336" width="42" height="42"/>
-<path class="path" d="M481 357H696" marker-start="url(#blue-arrow)" marker-end="url(#blue-arrow)"/>
-<path class="path" d="M794 357H1009" marker-start="url(#blue-arrow)" marker-end="url(#blue-arrow)"/>
-<text class="actor" x="432" y="419">Human</text>
-<text class="actor" x="745" y="419">Agent</text>
-<text class="actor" x="1058" y="419">Software</text>
+<g class="research-card" data-direction="D4">
+<rect x="726" y="177" width="350" height="140" rx="15"/>
+<use class="icon" href="#ListChecks" x="744" y="231" width="32" height="32"/>
+<text class="direction" x="791" y="241"><tspan x="791" y="241">Interaction Verification</tspan><tspan x="791" y="269">and Runtime Assurance</tspan></text>
 </g>
-<g id="research-paths">
-<path class="path" d="M346 590V542H745V454" marker-end="url(#blue-arrow)"/>
-<path class="feedback" d="M962 590V558H1240V392H1208" marker-end="url(#teal-arrow)"/>
-<text class="edge-label" x="546" y="530" style="fill:#376989">Software Engineering for Agent Quality</text>
-<text class="edge-label" x="1075" y="547" style="fill:#397970">Agents for Software Quality</text>
-<path class="feedback" d="M622 650H674" marker-start="url(#teal-arrow)" marker-end="url(#teal-arrow)"/>
+<g class="research-card" data-direction="D3">
+<rect x="28" y="349" width="350" height="140" rx="15"/>
+<use class="icon" href="#Workflow" x="46" y="403" width="32" height="32"/>
+<text class="direction" x="93" y="413"><tspan x="93" y="413">Intent-Driven Intelligent</tspan><tspan x="93" y="441">Task Execution</tspan></text>
 </g>
-<g id="direction-5">
-<rect x="70" y="590" width="552" height="120" rx="14" fill="#edf3f8" stroke="#91aebf" stroke-width="1.8"/>
-<use class="icon" href="#Wrench" x="94" y="629" width="38" height="38"/>
-<text class="direction" x="153" y="641"><tspan x="153">Quality Engineering for</tspan>
-<tspan x="153" dy="34">Agent-Integrated Software</tspan></text>
+<g class="research-card" data-direction="D5">
+<rect x="942" y="349" width="350" height="140" rx="15"/>
+<use class="icon" href="#Wrench" x="960" y="403" width="32" height="32"/>
+<text class="direction" x="1007" y="399"><tspan x="1007" y="399">Quality Engineering for</tspan><tspan x="1007" y="427">Agent-Integrated</tspan><tspan x="1007" y="455">Software</tspan></text>
 </g>
-<g id="direction-6">
-<rect x="674" y="590" width="576" height="120" rx="14" fill="#edf6f2" stroke="#8eb6aa" stroke-width="1.8"/>
-<use class="icon" href="#UsersRound" x="697" y="629" width="38" height="38" style="color:#397970"/>
-<text class="direction" x="756" y="641"><tspan x="756">Human–Agent Collaborative</tspan>
-<tspan x="756" dy="34">Software Quality Improvement</tspan></text>
+<g class="research-card" data-direction="D6">
+<rect x="244" y="521" width="350" height="140" rx="15"/>
+<use class="icon" href="#UsersRound" x="262" y="575" width="32" height="32"/>
+<text class="direction" x="309" y="571"><tspan x="309" y="571">Human–Agent</tspan><tspan x="309" y="599">Collaborative Software</tspan><tspan x="309" y="627">Quality Improvement</tspan></text>
+</g>
+<g class="research-card" data-direction="D1">
+<rect x="726" y="521" width="350" height="140" rx="15"/>
+<use class="icon" href="#CircleCheck" x="744" y="575" width="32" height="32"/>
+<text class="direction" x="791" y="585"><tspan x="791" y="585">Software Interaction</tspan><tspan x="791" y="613">Quality Assurance</tspan></text>
 </g>
 </svg>

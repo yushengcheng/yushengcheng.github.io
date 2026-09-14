@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="scope" viewBox="0 0 1600 900" role="img" aria-labelledby="scope-title scope-desc">
+<metadata id="icon-license">ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+<title id="scope-title">A nested assurance framework for trustworthy interaction</title>
+<desc id="scope-desc">Reciprocal research positioning supports trustworthy interaction. Security constrains the interaction and execution kernel. Runtime assurance guards the kernel, with feedback from collaboration and quality engineering.</desc>
+<defs>
+<symbol id="UserRound" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
+<symbol id="Bot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol>
+<symbol id="AppWindow" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/></symbol>
+<symbol id="ShieldCheck" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="CircleCheck" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="ListChecks" viewBox="0 0 24 24"><path d="M13 5h8"/><path d="M13 12h8"/><path d="M13 19h8"/><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/></symbol>
+<symbol id="Workflow" viewBox="0 0 24 24"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></symbol>
+<symbol id="UsersRound" viewBox="0 0 24 24"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></symbol>
+<symbol id="Wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/></symbol>
+<symbol id="ArrowLeftRight" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></symbol>
+<symbol id="Target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+<symbol id="ScanLine" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 12h10"/></symbol>
+<marker id="blue-arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto-start-reverse"><path d="M2 1 8 5 2 9" fill="none" stroke="#336b91" stroke-width="1.5" stroke-linejoin="round"/></marker>
+<marker id="teal-arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8" refY="5" orient="auto-start-reverse"><path d="M2 1 8 5 2 9" fill="none" stroke="#3a7d76" stroke-width="1.5" stroke-linejoin="round"/></marker>
+<style>
+text{font-family:Helvetica,Arial,sans-serif;fill:#24333d;text-anchor:middle}
+.direction{font-size:27px;font-weight:500}
+.role{font-size:20px;fill:#566570}
+.object{font-size:28px}
+.icon{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:#336b91}
+.main{fill:none;stroke:#336b91;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.feedback{fill:none;stroke:#3a7d76;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+</style>
+</defs>
+<rect width="1600" height="900" fill="#fff"/>
+<text class="role" x="800" y="53">Goal</text>
+<use class="icon" href="#Target" x="600" y="71" width="38" height="38"/>
+<text x="825" y="101" font-size="32" font-weight="500">Trustworthy Interaction</text>
+<text class="direction" x="800" y="154">Software Interaction Quality Assurance</text>
+
+<text x="800" y="209" font-size="26" fill="#336b91">Agents for Software Quality</text>
+<path class="main" d="M390 228H1210" marker-end="url(#blue-arrow)"/>
+<path class="main" d="M1210 258H390" marker-end="url(#blue-arrow)"/>
+<text x="800" y="294" font-size="26" fill="#336b91">Software Engineering for Agent Quality</text>
+
+<rect x="235" y="340" width="1130" height="382" rx="7" fill="none" stroke="#96a6b2" stroke-width="1.8" stroke-dasharray="8 7"/>
+<use class="icon" href="#ShieldCheck" x="266" y="360" width="39" height="39"/>
+<text class="direction" x="321" y="389" style="text-anchor:start">Security &amp; Controllability</text>
+<text class="role" x="1316" y="389" style="text-anchor:end">Constraint</text>
+
+<rect x="380" y="425" width="850" height="259" rx="6" fill="#f8fafb" stroke="#91a9ba" stroke-width="1.8"/>
+<use class="icon" href="#ListChecks" x="467" y="441" width="36" height="36"/>
+<text class="direction" x="831" y="469">Interaction Verification and Runtime Assurance</text>
+<text class="role" x="805" y="507">Interaction</text>
+
+<use class="icon" href="#UserRound" x="496" y="524" width="48" height="48"/>
+<use class="icon" href="#Bot" x="781" y="524" width="48" height="48"/>
+<use class="icon" href="#AppWindow" x="1066" y="524" width="48" height="48"/>
+<path class="main" d="M564 548H760" marker-start="url(#blue-arrow)" marker-end="url(#blue-arrow)"/>
+<path class="main" d="M850 548H1045" marker-start="url(#blue-arrow)" marker-end="url(#blue-arrow)"/>
+<text class="object" x="520" y="606">Human</text>
+<text class="object" x="805" y="606">Agent</text>
+<text class="object" x="1090" y="606">Software</text>
+<use class="icon" href="#Workflow" x="477" y="631" width="32" height="32"/>
+<text class="direction" x="832" y="655">Intent-Driven Intelligent Task Execution</text>
+
+<circle cx="662" cy="548" r="5" fill="#fff" stroke="#3a7d76" stroke-width="1.8"/>
+<path class="feedback" d="M454 768H330V496H662V536" marker-start="url(#teal-arrow)" marker-end="url(#teal-arrow)"/>
+<path class="feedback" d="M1156 768H1300V548H1136" marker-start="url(#teal-arrow)" marker-end="url(#teal-arrow)"/>
+<use class="icon" href="#UsersRound" x="476" y="749" width="40" height="40" style="color:#3a7d76"/>
+<text class="direction" x="496" y="819"><tspan x="496">Human–Agent Collaborative</tspan>
+<tspan x="496" dy="35">Software Quality Improvement</tspan></text>
+<use class="icon" href="#Wrench" x="1094" y="749" width="40" height="40" style="color:#3a7d76"/>
+<text class="direction" x="1114" y="819"><tspan x="1114">Quality Engineering for</tspan>
+<tspan x="1114" dy="35">Agent-Integrated Software</tspan></text>
+<text class="role" x="805" y="777" style="fill:#3a7d76">Improvement &amp; Feedback</text>
+</svg>

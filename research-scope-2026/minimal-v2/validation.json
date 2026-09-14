@@ -1,0 +1,151 @@
+[
+  {
+    "name": "a-architecture.html",
+    "errors": [],
+    "labels": [
+      "Goal",
+      "Trustworthiness",
+      "Constraint",
+      "Security & Controllability",
+      "Software Interaction Quality Assurance",
+      "Capability",
+      "Intent-Driven Intelligent Task Execution",
+      "Object · Interaction",
+      "Human",
+      "Agent",
+      "Software",
+      "Human–Agent Collaborative Software Quality Improvement",
+      "Interaction Verification and Runtime Assurance",
+      "Quality Engineering for Agent-Integrated Software",
+      "Agents for Software Quality",
+      "Software Engineering for Agent Quality"
+    ],
+    "words": 45,
+    "withinWordBudget": true,
+    "chinese": false,
+    "missing": [],
+    "repeated": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "compact": {
+      "fits": true,
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "name": "b-dual.html",
+    "errors": [],
+    "labels": [
+      "Security & Controllability",
+      "Constraint",
+      "Agents for Software Quality",
+      "Software Engineering for Agent Quality",
+      "Goal",
+      "Trustworthiness",
+      "Software Interaction Quality Assurance",
+      "Object ·  Interaction",
+      "Human",
+      "Agent",
+      "Software",
+      "Capability",
+      "Intent-Driven Intelligent Task Execution",
+      "Interaction Verification and Runtime Assurance",
+      "Quality Engineering for Agent-Integrated Software",
+      "Human–Agent Collaborative Software Quality Improvement"
+    ],
+    "words": 45,
+    "withinWordBudget": true,
+    "chinese": false,
+    "missing": [],
+    "repeated": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "compact": {
+      "fits": true,
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "name": "c-assurance.html",
+    "errors": [],
+    "labels": [
+      "Goal",
+      "Trustworthy Interaction",
+      "Software Interaction Quality Assurance",
+      "Agents for Software Quality",
+      "Software Engineering for Agent Quality",
+      "Security & Controllability",
+      "Constraint",
+      "Interaction Verification and Runtime Assurance",
+      "Interaction",
+      "Human",
+      "Agent",
+      "Software",
+      "Intent-Driven Intelligent Task Execution",
+      "Human–Agent Collaborative \n Software Quality Improvement",
+      "Quality Engineering for \n Agent-Integrated Software",
+      "Improvement & Feedback"
+    ],
+    "words": 46,
+    "withinWordBudget": true,
+    "chinese": false,
+    "missing": [],
+    "repeated": [],
+    "outside": [],
+    "overlaps": [],
+    "small": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "compact": {
+      "fits": true,
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "name": "index.html",
+    "errors": [],
+    "images": [
+      {
+        "src": "design-demos/a-architecture.png",
+        "loaded": true
+      },
+      {
+        "src": "design-demos/b-dual.png",
+        "loaded": true
+      },
+      {
+        "src": "design-demos/c-assurance.png",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "design-demos/a-architecture.html",
+      "design-demos/a-architecture.html",
+      "design-demos/a-architecture.svg",
+      "design-demos/a-architecture.png",
+      "design-demos/b-dual.html",
+      "design-demos/b-dual.html",
+      "design-demos/b-dual.svg",
+      "design-demos/b-dual.png",
+      "design-demos/c-assurance.html",
+      "design-demos/c-assurance.html",
+      "design-demos/c-assurance.svg",
+      "design-demos/c-assurance.png"
+    ]
+  }
+]

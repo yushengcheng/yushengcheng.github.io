@@ -14,3 +14,11 @@
 - If a task appears to require a change under `content/`, stop before making that change and tell the user exactly what they need to edit manually.
 - Check for changes under `content/` whenever inspecting the working tree. Any detected change under `content/` is considered a user-authored content update: do not alter, revert, or commit it immediately solely because it was detected.
 - Keep detected `content/` changes pending until the next requested task is completed, then include them in the same commit as that task's files and push the combined commit to `origin/v2026`. This is an explicit exception to the rule about committing only files belonging to the current request; do not create a separate content-only commit unless the user explicitly asks for one.
+
+# Artifact organization and cleanup
+
+- Store research-scope figures and their current editable deliverables in `scope/`.
+- At the end of every project task, before the final commit and delivery, remove unnecessary task-generated intermediate files, superseded drafts, temporary exports, debugging or validation logs, and redundant asset copies.
+- Retain current deliverables, editable sources, necessary dependencies and license notices, and concise context needed for further work. Keep current design alternatives until the user selects a final direction.
+- Use Git history for superseded versions instead of leaving backup or version folders in the working tree.
+- Cleanup applies only to files created by the assistant for the task. Never remove user-managed source files, anything under `content/`, unrelated work, or files whose ownership or necessity is uncertain.

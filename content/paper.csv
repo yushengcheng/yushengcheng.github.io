@@ -1,4 +1,5 @@
 year,id,title,link,status,author,cofauthor,corauthor,level,venue,note
+M,46,Security of Agent-Integrated Software: When Human Operations and Agent Actions Coexist,https://arxiv.org/abs/2609.23226,pp,"Ding Yang, Yuchen Ling, Shengcheng Yu, Zhenyu Chen, Chunrong Fang",/,/,/,/,
 M,45,Agent-Integrated Software: Interaction Contracts and Continuous Assurance,https://arxiv.org/abs/2609.11381,pp,"Shengcheng Yu, Chunrong Fang, Zhenyu Chen",/,Chunrong Fang,/,/,
 M,44,Software Engineering for and with GUI Agent,https://arxiv.org/abs/2608.09278,pp,"Shengcheng Yu, Yuchen Ling, Junyang Xing, Quan Zhou, Chunrong Fang, Zhenyu Chen",/,Chunrong Fang,/,/,
 M,43,"Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",https://arxiv.org/abs/2606.10749,pp,"Yuchen Ling, Shengcheng Yu, Zhenyu Chen, Chunrong Fang",/,"Shengcheng Yu, Chunrong Fang",/,/,

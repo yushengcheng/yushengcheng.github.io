@@ -411,12 +411,20 @@ summary:focus-visible {
   color: #27343d;
   font-size: 16px;
   line-height: 1.55;
+  letter-spacing: -0.2px;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .recruitment-section a {
   color: #245b78;
   font-weight: 700;
+}
+
+@media (min-width: 1240px) {
+  .recruitment-section p {
+    text-align-last: justify;
+  }
 }
 
 h2 {

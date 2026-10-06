@@ -411,6 +411,11 @@ summary:focus-visible {
   color: #27343d;
   font-size: 16px;
   line-height: 1.55;
+  text-align: justify;
+}
+
+.recruitment-section p + p {
+  margin-top: 9px;
 }
 
 .recruitment-section a {

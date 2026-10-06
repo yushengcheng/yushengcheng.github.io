@@ -414,10 +414,6 @@ summary:focus-visible {
   text-align: justify;
 }
 
-.recruitment-section p + p {
-  margin-top: 9px;
-}
-
 .recruitment-section a {
   color: #245b78;
   font-weight: 700;

@@ -1,24 +1,31 @@
 TASIR 标志设计约定
 
-中文名称：可信智能体软件交互研究组。英文名称：Trustworthy Agentic Software Interaction Research Group。用户于 2026-11-17 明确选择使用 TASIR。当前是图形方向初稿，尚未选定最终标志。
+中文名称：可信智能体软件交互研究组。英文名称：Trustworthy Agentic Software Interaction Research Group。简称 TASIR。用户已选定 B 风格，本轮在该方向内深化。
 
-研究定位：通过智能体提升软件质量，通过软件工程保障智能体质量。交互是特色对象，可信是共同目标，安全与可控是约束，智能执行是能力。六个研究方向并列，标志不将其画成层级。
+研究依据：通过智能体提升软件质量，通过软件工程保障智能体质量。交互是特色对象，可信是共同目标，安全与可控是约束，智能执行是能力。软件交互质量保障、智能体软件安全性与可控性、意图驱动的智能任务执行、交互行为验证与运行时保障、智能体软件质量工程、人机协同的智能体软件质量提升是六个并列方向。
 
-已确认的视觉偏好仅适用于 TASIR 标志：用户要求“颜色更高科技感一些，不要用这个绿色”“设计更精致一些，要有一些我研究scope相关内涵的内容”，随后要求“柔和一些”，并明确要求“换一种设计风格 不要这种地铁logo风格 更科技一些、精致一些、现代一些”。因此本轮清理粗带互锁、双向箭头、门框及地铁标识风格，采用蓝灰、冰蓝和银白，不使用绿色或青绿色。
+最新审美约定：现代、精致、柔和且有科技感，蓝灰、冰蓝和银白，不使用绿色或青绿色。用户最新原话：“按照B的风格，整体可以保留蝴蝶结的形状。需要更突出体现研究方向，但需更自然的表达”。允许保留两片相互作用曲面的整体轮廓，研究表达融入形体与光路。曲面材质属于视觉隐喻，不表示研究光学或量子技术。
 
-当前三个方向：A 精密交互，T/R 共享基准轴，回返曲线与核验节点表达执行和验证之间的受控交互；B 交互界面，两个轻薄曲面共享界面，象征智能体与软件工程的相互作用、双向质量提升及可验证交互，空间光感是视觉隐喻，不表示研究光学或量子技术；C 接口字标，为 TASIR 定制线性字形，在 I 中设置核验节点，将交互过程的检查与干预融入字标。
+图形内涵：两片同等分量的曲面互相回应，象征双向质量提升；交汇处的聚焦结构与回返光路，作为执行、运行时核验、失败恢复的设计意象；清晰、连续而有界的轮廓，象征可信交互中的安全与可控。六个并列方向通过共同交互对象、可信目标和反馈改进协同，不宣称每个方向均与一个独立图元一一对应。
 
-交付：index.html 为对比入口，design-demos/dir-a.html 至 dir-c.html 为可离线打开的完整展示。direction-a.png 至 direction-c.png 为高清展示板。logo-a.svg / logo-c.svg、symbol-a.svg / wordmark-c.svg 为纯矢量源；logo-a.png 至 logo-c.png 为透明组合标。B 的图形源为 symbol-b.png，是有通透光感的位图概念，不作为纯矢量或已完成的单色、小尺寸标志交付。字标中的中英文名称已转为路径，避免依赖观看者的字体环境；文字改动应重新排版。
+当前文件：symbol-b.png 为独立透明图形；logo-b.png 为适合浅底的透明组合标；logo-b-reverse.png 为适合深底的透明组合标；direction-b.png 为研究内涵展示板；index.html 为预览与下载入口；design-demos/dir-b.html 为可离线打开的完整展示。中英文名称使用字形路径排版，避免依赖浏览设备字体。图形为位图，不作为纯矢量源文件交付。
 
-生成方式：B 图形使用内置 image_gen 工具生成，未使用 CLI 或自行配置的外部图像 API；A、C 为本地 SVG 绘制。被否定的粗带探索及临时渲染、参考截图、验证日志不保留在项目中。当前三个候选保留至用户选定，原有 scope/scope_cn.pptx 的用户改动不纳入本次提交。
+生成与清理：图形使用内置 image_gen 工具编辑，未使用 CLI 或自行配置的外部图像 API。组合标仅将图形与已确认字标排版，不更改生成图形像素。原有 scope/scope_cn.pptx 用户改动不纳入本次提交。已选 B 后，A/C 方向及过时探索从当前目录清理，历史版本由 Git 保留；临时截图、脚本与验证日志在交付前清理。
 
-B 图形最终生成提示词（完整原文）：
+最终生成提示词（完整原文）：
 
 ```text
-Create ONE original iconic logo SYMBOL for TASIR, an academic research group studying Trustworthy Agentic Software Interaction. Research meaning: AI agents improve software quality, software engineering assures agent quality; interactions should be trustworthy, bounded, verifiable, and recoverable. The six research topics are equal peers, not layers.
+Image 1 is the SELECTED B-style TASIR logo edit target. Refine this logo naturally, keeping its fluid bow-tie-like silhouette, two airy translucent surfaces, soft blue-silver optical material, quiet sophistication and balanced overall proportions.
 
-The user rejected chunky subway/transit-authority logo styling. This is a NEW art direction. NO thick interlocking ribbons, NO split-C / split-Z shapes, NO doubled arrow blocks, NO metro gate pictogram, NO shield, NO padlock, NO brain, NO robot head, NO sixfold AI knot, NO generic four-point sparkle. Do not copy a known brand. No letter words, no wordmark, no text, no diagram labels, no presentation board.
+The group studies Trustworthy Agentic Software Interaction: agents improving software quality, software engineering assuring agents, bounded interaction, verification and feedback. Express these ideas THROUGH THE SHAPE ITSELF:
+- Make the two surfaces feel like a reciprocal exchange, with one smooth outgoing trajectory and one gently returning trajectory. The returning flow should be part of the surface curvature, suggesting a continuous S-like feedback channel rather than added arrows.
+- Shape the INNER edges near the waist into a precise, quiet shared interface. Their paired negative-space openings may subtly recall soft code-angle brackets, but they must be made by the existing glass edges, not overlaid symbols. This is the software/interaction cue.
+- At the shared waist, the two trajectories align through one small crisp lens-like focus or deliberately controlled gap. This should feel like a verified handoff, not merely an arbitrary collision of waves. The alignment itself expresses assurance.
+- Retain a clean finite outer contour: openness within a controlled boundary, not a closed shield.
 
-The desired character is modern, sophisticated, finely crafted and high-tech, yet SOFT and calm. Cool blue, silver, pale periwinkle only: slate blue #4F6FA8, ice blue #A4BCEB, silver white #E5ECF8, restrained blue-violet if necessary. Absolutely NO green, teal, turquoise, orange or neon purple. Soft optical geometry with purposeful negative space. Isolated on a genuinely TRANSPARENT background. No colored background, no drop shadow, no environment or mockup. The symbol is the only subject, fully visible and centered with consistent padding.
-DIRECTION B — Spatial interaction. A refined abstract spatial emblem made from TWO thin, smoothly curved, translucent surfaces that respond to one another at a small shared junction. Their precise intersection represents agent–software interaction, mutual assurance and the controlled handover between execution and verification. The two forms have equal visual weight. Soft silver-blue glass-like light, subtle internal transparency and a restrained dimensional effect, as if shaped from optical material. Simple coherent silhouette, at most three main forms. NOT an infinity loop, chain, DNA helix, planet, orbital ring, flower, atom or droplet. No opaque chunky ribbons. Make it sophisticated, quiet and unmistakably contemporary, with enough clarity to stand alone as a research-group mark.
+Keep the meaning elegant and discoverable, not a diagram. Exactly two principal surfaces; at most two very fine integrated flow traces. The six research directions are peers contributing to this common interaction, not six stages. DO NOT add six dots, ports, spokes, a checklist, software window, chip, browser tile, shield, lock, literal checkmark, badge, separate pictogram, circuit board or explanatory lettering. No hierarchy and no diagram labels. Do not turn the mark into a stiff infinity sign, metro symbol or a sixfold AI knot.
+
+Refine edge definition and negative space. Reduce foggy bloom outside the silhouette; keep only delicate highlights that belong to the material. Colors remain calm slate blue #4F6FA8, ice blue #A4BCEB and silver white #E5ECF8. No green, teal, turquoise, hot pink, orange, harsh neon or heavy chrome. Softness comes from flowing geometry and subtle translucency, not blurry edges.
+
+One fully visible centered isolated LOGO SYMBOL on a genuine alpha TRANSPARENT background, with comfortable padding. No background, floor, drop shadow, mockup, wordmark, text or frame. Preserve the graceful B character while making interaction, verification and recovery read more intentionally from the structure.
 ```

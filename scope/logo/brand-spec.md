@@ -1,31 +1,17 @@
-TASIR 标志设计约定
+TASIR Group 矢量标志约定
 
-中文名称：可信智能体软件交互研究组。英文名称：Trustworthy Agentic Software Interaction Research Group。简称 TASIR。用户已选定 B 风格，本轮在该方向内深化。
+中文全称为“可信智能体软件交互研究组”，英文全称为“Trustworthy Agentic Software Interaction Research Group”。组合标的简称统一显示为“TASIR Group”。
 
-研究依据：通过智能体提升软件质量，通过软件工程保障智能体质量。交互是特色对象，可信是共同目标，安全与可控是约束，智能执行是能力。软件交互质量保障、智能体软件安全性与可控性、意图驱动的智能任务执行、交互行为验证与运行时保障、智能体软件质量工程、人机协同的智能体软件质量提升是六个并列方向。
+本次依据用户已选择的 B 风格及提交 1922b33 中的蝴蝶结图形重绘原生 SVG。保留柔和蓝银曲面、双向流线和交汇焦点，用形态表达双向质量提升、核验反馈与安全可控。六个研究方向是并列关系，图形凝练其共同的交互对象和可信目标，不把它们编码成六个阶段或独立装饰节点。曲面质感属于设计隐喻，不表示研究光学或量子技术。
 
-最新审美约定：现代、精致、柔和且有科技感，蓝灰、冰蓝和银白，不使用绿色或青绿色。用户最新原话：“按照B的风格，整体可以保留蝴蝶结的形状。需要更突出体现研究方向，但需更自然的表达”。允许保留两片相互作用曲面的整体轮廓，研究表达融入形体与光路。曲面材质属于视觉隐喻，不表示研究光学或量子技术。
+tasir-icon.svg 为独立图标，也是后续修改图形的主源。tasir-horizontal-compact.svg 为紧凑横排；tasir-horizontal-relaxed.svg 为宽松横排；tasir-vertical.svg 为图标在上、名称在下的居中排列。三款组合标均完整呈现 TASIR Group、中文全称和英文全称。两款横排保持相同图形尺寸、文字尺寸和行距，主要区别是可见图形与文字之间约 25 和 69 个 SVG 单位的间距。
 
-图形内涵：两片同等分量的曲面互相回应，象征双向质量提升；交汇处的聚焦结构与回返光路，作为执行、运行时核验、失败恢复的设计意象；清晰、连续而有界的轮廓，象征可信交互中的安全与可控。六个并列方向通过共同交互对象、可信目标和反馈改进协同，不宣称每个方向均与一个独立图元一一对应。
+标准版适合白色和浅色背景，字标主色为 #314563，副色为 #596D8D。reverse/ 中保留三款组合标的深底版，主色为 #E4ECFA，副色为 #B7C6E1，建议背景为 #1E2D49。独立图标共用同一文件，不重复存放。所有 SVG 背景均透明，保留原始宽高比使用。
 
-当前文件：symbol-b.png 为独立透明图形；logo-b.png 为适合浅底的透明组合标；logo-b-reverse.png 为适合深底的透明组合标；direction-b.png 为研究内涵展示板；index.html 为预览与下载入口；design-demos/dir-b.html 为可离线打开的完整展示。中英文名称使用字形路径排版，避免依赖浏览设备字体。图形为位图，不作为纯矢量源文件交付。
+图形由命名的 Bézier 路径、线性渐变、径向渐变和裁剪路径组成，没有嵌入 PNG、JPEG、外部图像、网页内容或模糊滤镜。文字已转为轮廓路径，不依赖使用者电脑安装字体；原排版使用 Avenir Next Medium 64、PingFang SC Regular 26、Avenir Next Regular 17.5，字距分别为 0.25、0.2、0.05 个 SVG 单位。未打包或分发字体文件。修改名称时可按这些参数重新排版并转曲。
 
-生成与清理：图形使用内置 image_gen 工具编辑，未使用 CLI 或自行配置的外部图像 API。组合标仅将图形与已确认字标排版，不更改生成图形像素。原有 scope/scope_cn.pptx 用户改动不纳入本次提交。已选 B 后，A/C 方向及过时探索从当前目录清理，历史版本由 Git 保留；临时截图、脚本与验证日志在交付前清理。
+SVG 分组保留 left-surface、right-surface、feedback-paths、verification-focus 以及三组文字轮廓，便于在矢量编辑软件中选择和修改。组合标中的 bow-tie-icon 仅对同一主图形进行等比例变换。图形经过人工曲线重绘和分层渐变复现，保留原稿的轮廓与视觉语言，不宣称与原位图逐像素相同。
 
-最终生成提示词（完整原文）：
+index.html 是可离线打开的预览与下载入口，可切换深浅背景；下载链接会随背景切换至相应字标版本。variants.png 仅为四款布局的展示预览，正式使用优先选择 SVG。原位图、过时组合标与旧展示页通过 Git 历史保留，当前目录维护本轮有效交付物。
 
-```text
-Image 1 is the SELECTED B-style TASIR logo edit target. Refine this logo naturally, keeping its fluid bow-tie-like silhouette, two airy translucent surfaces, soft blue-silver optical material, quiet sophistication and balanced overall proportions.
-
-The group studies Trustworthy Agentic Software Interaction: agents improving software quality, software engineering assuring agents, bounded interaction, verification and feedback. Express these ideas THROUGH THE SHAPE ITSELF:
-- Make the two surfaces feel like a reciprocal exchange, with one smooth outgoing trajectory and one gently returning trajectory. The returning flow should be part of the surface curvature, suggesting a continuous S-like feedback channel rather than added arrows.
-- Shape the INNER edges near the waist into a precise, quiet shared interface. Their paired negative-space openings may subtly recall soft code-angle brackets, but they must be made by the existing glass edges, not overlaid symbols. This is the software/interaction cue.
-- At the shared waist, the two trajectories align through one small crisp lens-like focus or deliberately controlled gap. This should feel like a verified handoff, not merely an arbitrary collision of waves. The alignment itself expresses assurance.
-- Retain a clean finite outer contour: openness within a controlled boundary, not a closed shield.
-
-Keep the meaning elegant and discoverable, not a diagram. Exactly two principal surfaces; at most two very fine integrated flow traces. The six research directions are peers contributing to this common interaction, not six stages. DO NOT add six dots, ports, spokes, a checklist, software window, chip, browser tile, shield, lock, literal checkmark, badge, separate pictogram, circuit board or explanatory lettering. No hierarchy and no diagram labels. Do not turn the mark into a stiff infinity sign, metro symbol or a sixfold AI knot.
-
-Refine edge definition and negative space. Reduce foggy bloom outside the silhouette; keep only delicate highlights that belong to the material. Colors remain calm slate blue #4F6FA8, ice blue #A4BCEB and silver white #E5ECF8. No green, teal, turquoise, hot pink, orange, harsh neon or heavy chrome. Softness comes from flowing geometry and subtle translucency, not blurry edges.
-
-One fully visible centered isolated LOGO SYMBOL on a genuine alpha TRANSPARENT background, with comfortable padding. No background, floor, drop shadow, mockup, wordmark, text or frame. Preserve the graceful B character while making interaction, verification and recovery read more intentionally from the structure.
-```
+本轮未调用图像生成工具或外部图像 API。已检查七个 SVG 的结构、内部引用、完整名称和画布边界，以及预览页的深浅背景、下载链接和 390 像素宽度布局。临时导出、截图、检查日志和构建文件在交付前清理。

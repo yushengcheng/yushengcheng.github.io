@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880" role="img" aria-labelledby="tasir-icon-title tasir-icon-desc">
+  <title id="tasir-icon-title">TASIR Group · 独立图标</title>
+  <desc id="tasir-icon-desc">可信智能体软件交互研究组. Trustworthy Agentic Software Interaction Research Group. Two blue-silver reciprocal surfaces meet at a shared focus. Native editable Bézier paths, gradients and outlined lettering; no raster content.</desc>
+  <defs>
+    <linearGradient id="tasir-icon-left" gradientUnits="userSpaceOnUse" x1="150" y1="348" x2="640" y2="840">
+      <stop stop-color="#D9E5F7"/><stop offset=".35" stop-color="#B5C9EB"/>
+      <stop offset=".69" stop-color="#7B9CD4"/><stop offset="1" stop-color="#C8DCFA"/>
+    </linearGradient>
+    <linearGradient id="tasir-icon-right" gradientUnits="userSpaceOnUse" x1="1020" y1="190" x2="1286" y2="700">
+      <stop stop-color="#88A7DB"/><stop offset=".44" stop-color="#A6BFEA"/>
+      <stop offset="1" stop-color="#CEDFFA"/>
+    </linearGradient>
+    <radialGradient id="tasir-icon-waist" gradientUnits="userSpaceOnUse" cx="770" cy="535" r="660" gradientTransform="translate(770 535) scale(1 .73) translate(-770 -535)">
+      <stop stop-color="#3D5D96" stop-opacity=".83"/><stop offset=".50" stop-color="#5D7EBA" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#9DB9E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-icon-left-silver" gradientUnits="userSpaceOnUse" cx="129" cy="408" r="550" gradientTransform="translate(129 408) scale(.88 1.15) translate(-129 -408)">
+      <stop stop-color="#F2F6FF" stop-opacity=".67"/><stop offset=".56" stop-color="#E5EEFE" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#C9DCFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-icon-left-fold" gradientUnits="userSpaceOnUse" cx="255" cy="739" r="180" gradientTransform="translate(255 739) rotate(-14) scale(.45 1.55) translate(-255 -739)">
+      <stop stop-color="#F1F7FF" stop-opacity=".78"/><stop offset=".53" stop-color="#D6E6FF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#CCDEFD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-icon-right-silver" gradientUnits="userSpaceOnUse" cx="1350" cy="656" r="625" gradientTransform="translate(1350 656) rotate(21) scale(1 .57) translate(-1350 -656)">
+      <stop stop-color="#E5EEFF" stop-opacity=".78"/><stop offset=".56" stop-color="#C6DAFF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#C0D7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-icon-upper-fold" gradientUnits="userSpaceOnUse" cx="1068" cy="211" r="250" gradientTransform="translate(1068 211) rotate(36) scale(.25 1.45) translate(-1068 -211)">
+      <stop stop-color="#E6F0FF" stop-opacity=".69"/><stop offset=".50" stop-color="#CEE1FF" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#BED5FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tasir-icon-rim-left" gradientUnits="userSpaceOnUse" x1="120" y1="356" x2="655" y2="805">
+      <stop stop-color="#F4F8FF" stop-opacity=".94"/><stop offset=".4" stop-color="#D8E9FF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#EAF3FF" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="tasir-icon-rim-right" gradientUnits="userSpaceOnUse" x1="1114" y1="110" x2="1248" y2="703">
+      <stop stop-color="#E3EFFF"/><stop offset=".44" stop-color="#CADDFB" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#F0F6FF" stop-opacity=".94"/>
+    </linearGradient>
+    <linearGradient id="tasir-icon-trace" gradientUnits="userSpaceOnUse" x1="130" y1="460" x2="1424" y2="653">
+      <stop stop-color="#F3F8FF" stop-opacity=".54"/><stop offset=".33" stop-color="#F8FBFF"/>
+      <stop offset=".52" stop-color="#FFFFFF"/><stop offset=".79" stop-color="#E9F4FF" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#E9F4FF" stop-opacity=".44"/>
+    </linearGradient>
+    <linearGradient id="tasir-icon-focus" gradientUnits="userSpaceOnUse" x1="772" y1="524" x2="772" y2="543">
+      <stop stop-color="#F7FBFF"/><stop offset=".52" stop-color="#C5DDFB"/><stop offset="1" stop-color="#F2F8FF"/>
+    </linearGradient>
+    <clipPath id="tasir-icon-left-clip"><path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z"/></clipPath>
+    <clipPath id="tasir-icon-right-clip"><path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z"/></clipPath>
+  </defs>
+
+  <g id="tasir-icon-surface-geometry" transform="translate(-73 -75)">
+    <g id="tasir-icon-left-surface">
+      <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-icon-left)"/>
+      <g clip-path="url(#tasir-icon-left-clip)">
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-icon-waist)"/>
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-icon-left-silver)"/>
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-icon-left-fold)"/>
+        <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526C681 557 570 619 444 647C308 678 218 631 168 533Z" fill="#E4EEFC" fill-opacity=".12"/>
+        <path d="M317 922C431 904 542 751 641 617C691 550 728 539 774 540C712 545 683 574 644 625C548 755 438 904 325 925Z" fill="#EAF4FF" fill-opacity=".67"/>
+      </g>
+      <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="none" stroke="url(#tasir-icon-rim-left)" stroke-width="2.4" stroke-linejoin="round"/>
+    </g>
+    <g id="tasir-icon-right-surface">
+      <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-icon-right)"/>
+      <g clip-path="url(#tasir-icon-right-clip)">
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-icon-waist)"/>
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-icon-right-silver)"/>
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-icon-upper-fold)"/>
+        <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663C1439 696 1382 709 1319 709C1200 708 1072 677 963 628C882 592 828 550 786 542Z" fill="#E4EEFF" fill-opacity=".13"/>
+        <path d="M779 520C851 512 901 391 958 296C1003 219 1094 119 1165 106C1100 122 1016 222 971 304C909 418 875 526 779 527Z" fill="#E5F2FF" fill-opacity=".59"/>
+      </g>
+      <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="none" stroke="url(#tasir-icon-rim-right)" stroke-width="2.4" stroke-linejoin="round"/>
+    </g>
+    <g id="tasir-icon-feedback-paths" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g clip-path="url(#tasir-icon-left-clip)">
+      <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526" stroke="#A2C3F7" stroke-opacity=".26" stroke-width="7"/>
+      <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526" stroke="url(#tasir-icon-trace)" stroke-width="2.8"/>
+      <path d="M130 461C180 551 204 604 280 638C404 694 552 615 692 555C726 541 749 540 771 540" stroke="url(#tasir-icon-trace)" stroke-width="1.8" opacity=".83"/>
+      </g>
+      <g clip-path="url(#tasir-icon-right-clip)">
+      <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663" stroke="#A9CBFF" stroke-width="7" stroke-opacity=".22"/>
+      <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663" stroke="url(#tasir-icon-trace)" stroke-width="2.8"/>
+      </g>
+    </g>
+    <g id="tasir-icon-verification-focus">
+      <ellipse cx="772" cy="534" rx="37" ry="11.2" fill="#D9EAFF" fill-opacity=".25"/>
+      <ellipse cx="772" cy="534" rx="32.5" ry="8.6" fill="url(#tasir-icon-focus)" stroke="#F7FBFF" stroke-width="2.6"/>
+      <path d="M746 534C756 529 784 529 798 534" fill="none" stroke="#FFFFFF" stroke-width="1.1" stroke-opacity=".7"/>
+    </g>
+  </g>
+</svg>

@@ -17,13 +17,18 @@
 }
 .brand-spec-body {
   max-width: 78ch;
-  margin-top: 12px;
+  margin: 12px 0 0;
+  padding-inline-start: 1.35em;
   color: #506280;
   font-size: 15px;
   overflow-wrap: anywhere;
 }
-.brand-spec-body p + p {
-  margin-top: 12px;
+.brand-spec-body > li + li {
+  margin-top: 8px;
+}
+.brand-spec-body ul {
+  margin: 4px 0 0;
+  padding-inline-start: 1.35em;
 }
 </style></head>
 <body><main><header><div><h1>TASIR Group</h1><p>可信智能体软件交互研究组 · 四款矢量组合</p></div><div class="controls" aria-label="预览背景"><button id="light" aria-pressed="true" type="button">浅色背景</button><button id="dark" aria-pressed="false" type="button">深色背景</button></div></header>
@@ -411,16 +416,26 @@
 </div></section></div><footer><p>蓝银曲面、双向流线与交汇焦点延续 B 风格。<br>所有 SVG 均为透明背景，图形与文字均由矢量路径构成。</p>
   <details class="brand-spec">
     <summary>TASIR Group 矢量标志约定</summary>
-    <div class="brand-spec-body">
-      <p>中文全称为“可信智能体软件交互研究组”，英文全称为“Trustworthy Agentic Software Interaction Research Group”。组合标的简称统一显示为“TASIR Group”。</p>
-      <p>本次依据用户已选择的 B 风格及提交 1922b33 中的蝴蝶结图形重绘原生 SVG。保留柔和蓝银曲面、双向流线和交汇焦点，用形态表达双向质量提升、核验反馈与安全可控。六个研究方向是并列关系，图形凝练其共同的交互对象和可信目标，不把它们编码成六个阶段或独立装饰节点。曲面质感属于设计隐喻，不表示研究光学或量子技术。</p>
-      <p>所有 SVG 均位于 <code>icon/</code> 目录。tasir-icon.svg 为独立图标，也是后续修改图形的主源。tasir-horizontal-compact.svg 为紧凑横排；tasir-horizontal-relaxed.svg 为宽松横排；tasir-vertical.svg 为图标在上、名称在下的居中排列。三款组合标均完整呈现 TASIR Group、中文全称和英文全称。两款横排保持相同图形尺寸、文字尺寸和行距，主要区别是可见图形与文字之间约 25 和 69 个 SVG 单位的间距。</p>
-      <p>标准版适合白色和浅色背景，字标主色为 #314563，副色为 #596D8D。三款组合标的深底版与标准版放在同一目录，文件名以 -reverse.svg 结尾，主色为 #E4ECFA，副色为 #B7C6E1，建议背景为 #1E2D49。独立图标共用同一文件，不重复存放。所有 SVG 背景均透明，保留原始宽高比使用。</p>
-      <p>图形由命名的 Bézier 路径、线性渐变、径向渐变和裁剪路径组成，没有嵌入 PNG、JPEG、外部图像、网页内容或模糊滤镜。文字已转为轮廓路径，不依赖使用者电脑安装字体；原排版使用 Avenir Next Medium 64、PingFang SC Regular 26、Avenir Next Regular 17.5，字距分别为 0.25、0.2、0.05 个 SVG 单位。未打包或分发字体文件。修改名称时可按这些参数重新排版并转曲。</p>
-      <p>SVG 分组保留 left-surface、right-surface、feedback-paths、verification-focus 以及三组文字轮廓，便于在矢量编辑软件中选择和修改。组合标中的 bow-tie-icon 仅对同一主图形进行等比例变换。图形经过人工曲线重绘和分层渐变复现，保留原稿的轮廓与视觉语言，不宣称与原位图逐像素相同。</p>
-      <p>本页可离线打开，提供预览与下载，可切换深浅背景；下载链接会随背景切换至相应字标版本。原位图、过时组合标与旧展示页通过 Git 历史保留。</p>
-      <p>矢量重绘时未调用图像生成工具或外部图像 API。已检查七个 SVG 的结构、内部引用、完整名称和画布边界，以及预览页的深浅背景、下载链接和 390 像素宽度布局。临时导出、截图、检查日志和构建文件在交付前清理。</p>
-    </div>
+    <ul class="brand-spec-body">
+      <li><strong>标志名称</strong> 中文全称为“可信智能体软件交互研究组”，英文全称为“Trustworthy Agentic Software Interaction Research Group”。组合标的简称统一显示为“TASIR Group”。</li>
+      <li><strong>设计含义</strong> 本次依据用户已选择的 B 风格及提交 1922b33 中的蝴蝶结图形重绘原生 SVG。保留柔和蓝银曲面、双向流线和交汇焦点，用形态表达双向质量提升、核验反馈与安全可控。六个研究方向是并列关系，图形凝练其共同的交互对象和可信目标，不把它们编码成六个阶段或独立装饰节点。曲面质感属于设计隐喻，不表示研究光学或量子技术。</li>
+      <li>
+        <strong>图形文件</strong> 所有 SVG 均位于 <code>icon/</code> 目录。
+        <ul>
+          <li><code>tasir-icon.svg</code> 为独立图标，也是后续修改图形的主源。</li>
+          <li><code>tasir-horizontal-compact.svg</code> 为紧凑横排。</li>
+          <li><code>tasir-horizontal-relaxed.svg</code> 为宽松横排。</li>
+          <li><code>tasir-vertical.svg</code> 为图标在上、名称在下的居中排列。</li>
+        </ul>
+      </li>
+      <li><strong>组合排版</strong> 三款组合标均完整呈现 TASIR Group、中文全称和英文全称。两款横排保持相同图形尺寸、文字尺寸和行距，主要区别是可见图形与文字之间约 25 和 69 个 SVG 单位的间距。</li>
+      <li><strong>配色与背景</strong> 标准版适合白色和浅色背景，字标主色为 #314563，副色为 #596D8D。三款组合标的深底版与标准版放在同一目录，文件名以 <code>-reverse.svg</code> 结尾，主色为 #E4ECFA，副色为 #B7C6E1，建议背景为 #1E2D49。独立图标共用同一文件，不重复存放。所有 SVG 背景均透明，保留原始宽高比使用。</li>
+      <li><strong>矢量结构</strong> 图形由命名的 Bézier 路径、线性渐变、径向渐变和裁剪路径组成，没有嵌入 PNG、JPEG、外部图像、网页内容或模糊滤镜。SVG 分组保留 <code>left-surface</code>、<code>right-surface</code>、<code>feedback-paths</code>、<code>verification-focus</code> 以及三组文字轮廓，便于在矢量编辑软件中选择和修改。组合标中的 <code>bow-tie-icon</code> 仅对同一主图形进行等比例变换。</li>
+      <li><strong>字体参数</strong> 文字已转为轮廓路径，不依赖使用者电脑安装字体。原排版使用 Avenir Next Medium 64、PingFang SC Regular 26、Avenir Next Regular 17.5，字距分别为 0.25、0.2、0.05 个 SVG 单位。未打包或分发字体文件。修改名称时可按这些参数重新排版并转曲。</li>
+      <li><strong>重绘方式</strong> 图形经过人工曲线重绘和分层渐变复现，保留原稿的轮廓与视觉语言，不宣称与原位图逐像素相同。矢量重绘时未调用图像生成工具或外部图像 API。</li>
+      <li><strong>预览与版本</strong> 本页可离线打开，提供预览与下载，可切换深浅背景。下载链接会随背景切换至相应字标版本。原位图、过时组合标与旧展示页通过 Git 历史保留。</li>
+      <li><strong>交付检查</strong> 已检查七个 SVG 的结构、内部引用、完整名称和画布边界，以及预览页的深浅背景、下载链接和 390 像素宽度布局。临时导出、截图、检查日志和构建文件在交付前清理。</li>
+    </ul>
   </details>
 </footer></main>
 <script>for(const theme of ['light','dark'])document.getElementById(theme).addEventListener('click',()=>{document.body.classList.toggle('dark',theme==='dark');for(const name of ['light','dark'])document.getElementById(name).setAttribute('aria-pressed',String(name===theme));});</script></body></html>

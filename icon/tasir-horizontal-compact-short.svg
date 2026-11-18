@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="777" height="252" viewBox="0 0 777 252" role="img" aria-labelledby="tasir-horizontal-compact-short-title tasir-horizontal-compact-short-desc">
+  <title id="tasir-horizontal-compact-short-title">TASIR Group · 紧凑横排简称版</title>
+  <desc id="tasir-horizontal-compact-short-desc">TASIR Group abbreviated logo in a compact horizontal arrangement, with blue-silver reciprocal surfaces and dark outlined lettering.</desc>
+  <defs>
+    <linearGradient id="tasir-horizontal-compact-short-left" gradientUnits="userSpaceOnUse" x1="150" y1="348" x2="640" y2="840">
+      <stop stop-color="#D9E5F7"/><stop offset=".35" stop-color="#B5C9EB"/>
+      <stop offset=".69" stop-color="#7B9CD4"/><stop offset="1" stop-color="#C8DCFA"/>
+    </linearGradient>
+    <linearGradient id="tasir-horizontal-compact-short-right" gradientUnits="userSpaceOnUse" x1="1020" y1="190" x2="1286" y2="700">
+      <stop stop-color="#88A7DB"/><stop offset=".44" stop-color="#A6BFEA"/>
+      <stop offset="1" stop-color="#CEDFFA"/>
+    </linearGradient>
+    <radialGradient id="tasir-horizontal-compact-short-waist" gradientUnits="userSpaceOnUse" cx="770" cy="535" r="660" gradientTransform="translate(770 535) scale(1 .73) translate(-770 -535)">
+      <stop stop-color="#3D5D96" stop-opacity=".83"/><stop offset=".50" stop-color="#5D7EBA" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#9DB9E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-horizontal-compact-short-left-silver" gradientUnits="userSpaceOnUse" cx="129" cy="408" r="550" gradientTransform="translate(129 408) scale(.88 1.15) translate(-129 -408)">
+      <stop stop-color="#F2F6FF" stop-opacity=".67"/><stop offset=".56" stop-color="#E5EEFE" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#C9DCFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-horizontal-compact-short-left-fold" gradientUnits="userSpaceOnUse" cx="255" cy="739" r="180" gradientTransform="translate(255 739) rotate(-14) scale(.45 1.55) translate(-255 -739)">
+      <stop stop-color="#F1F7FF" stop-opacity=".78"/><stop offset=".53" stop-color="#D6E6FF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#CCDEFD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-horizontal-compact-short-right-silver" gradientUnits="userSpaceOnUse" cx="1350" cy="656" r="625" gradientTransform="translate(1350 656) rotate(21) scale(1 .57) translate(-1350 -656)">
+      <stop stop-color="#E5EEFF" stop-opacity=".78"/><stop offset=".56" stop-color="#C6DAFF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#C0D7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tasir-horizontal-compact-short-upper-fold" gradientUnits="userSpaceOnUse" cx="1068" cy="211" r="250" gradientTransform="translate(1068 211) rotate(36) scale(.25 1.45) translate(-1068 -211)">
+      <stop stop-color="#E6F0FF" stop-opacity=".69"/><stop offset=".50" stop-color="#CEE1FF" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#BED5FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tasir-horizontal-compact-short-rim-left" gradientUnits="userSpaceOnUse" x1="120" y1="356" x2="655" y2="805">
+      <stop stop-color="#F4F8FF" stop-opacity=".94"/><stop offset=".4" stop-color="#D8E9FF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#EAF3FF" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="tasir-horizontal-compact-short-rim-right" gradientUnits="userSpaceOnUse" x1="1114" y1="110" x2="1248" y2="703">
+      <stop stop-color="#E3EFFF"/><stop offset=".44" stop-color="#CADDFB" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#F0F6FF" stop-opacity=".94"/>
+    </linearGradient>
+    <linearGradient id="tasir-horizontal-compact-short-trace" gradientUnits="userSpaceOnUse" x1="130" y1="460" x2="1424" y2="653">
+      <stop stop-color="#F3F8FF" stop-opacity=".54"/><stop offset=".33" stop-color="#F8FBFF"/>
+      <stop offset=".52" stop-color="#FFFFFF"/><stop offset=".79" stop-color="#E9F4FF" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#E9F4FF" stop-opacity=".44"/>
+    </linearGradient>
+    <linearGradient id="tasir-horizontal-compact-short-focus" gradientUnits="userSpaceOnUse" x1="772" y1="524" x2="772" y2="543">
+      <stop stop-color="#F7FBFF"/><stop offset=".52" stop-color="#C5DDFB"/><stop offset="1" stop-color="#F2F8FF"/>
+    </linearGradient>
+    <clipPath id="tasir-horizontal-compact-short-left-clip"><path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z"/></clipPath>
+    <clipPath id="tasir-horizontal-compact-short-right-clip"><path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z"/></clipPath>
+  </defs>
+  <g id="tasir-horizontal-compact-short-bow-tie-icon" transform="translate(24 19) scale(0.24)">
+  <g id="tasir-horizontal-compact-short-surface-geometry" transform="translate(-73 -75)">
+    <g id="tasir-horizontal-compact-short-left-surface">
+      <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-horizontal-compact-short-left)"/>
+      <g clip-path="url(#tasir-horizontal-compact-short-left-clip)">
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-horizontal-compact-short-waist)"/>
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-horizontal-compact-short-left-silver)"/>
+        <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="url(#tasir-horizontal-compact-short-left-fold)"/>
+        <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526C681 557 570 619 444 647C308 678 218 631 168 533Z" fill="#E4EEFC" fill-opacity=".12"/>
+        <path d="M317 922C431 904 542 751 641 617C691 550 728 539 774 540C712 545 683 574 644 625C548 755 438 904 325 925Z" fill="#EAF4FF" fill-opacity=".67"/>
+      </g>
+      <path d="M771 520C703 520 659 476 548 431C426 381 305 341 211 342C148 342 104 356 103 391C102 413 128 449 151 487C207 580 224 664 241 757C257 844 254 888 282 911C305 932 338 924 374 908C470 865 550 754 625 648C683 567 722 546 773 542C786 537 788 527 771 520Z" fill="none" stroke="url(#tasir-horizontal-compact-short-rim-left)" stroke-width="2.4" stroke-linejoin="round"/>
+    </g>
+    <g id="tasir-horizontal-compact-short-right-surface">
+      <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-horizontal-compact-short-right)"/>
+      <g clip-path="url(#tasir-horizontal-compact-short-right-clip)">
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-horizontal-compact-short-waist)"/>
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-horizontal-compact-short-right-silver)"/>
+        <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="url(#tasir-horizontal-compact-short-upper-fold)"/>
+        <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663C1439 696 1382 709 1319 709C1200 708 1072 677 963 628C882 592 828 550 786 542Z" fill="#E4EEFF" fill-opacity=".13"/>
+        <path d="M779 520C851 512 901 391 958 296C1003 219 1094 119 1165 106C1100 122 1016 222 971 304C909 418 875 526 779 527Z" fill="#E5F2FF" fill-opacity=".59"/>
+      </g>
+      <path d="M775 520C850 520 893 414 956 304C1007 215 1096 119 1165 106C1209 97 1238 113 1252 153C1264 189 1269 265 1286 338C1310 449 1364 544 1419 625C1437 650 1444 670 1432 683C1413 705 1369 710 1319 709C1200 708 1072 677 963 628C882 592 828 550 776 543C761 539 760 526 775 520Z" fill="none" stroke="url(#tasir-horizontal-compact-short-rim-right)" stroke-width="2.4" stroke-linejoin="round"/>
+    </g>
+    <g id="tasir-horizontal-compact-short-feedback-paths" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g clip-path="url(#tasir-horizontal-compact-short-left-clip)">
+      <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526" stroke="#A2C3F7" stroke-opacity=".26" stroke-width="7"/>
+      <path d="M130 461C287 384 437 425 599 476C672 499 728 524 772 526" stroke="url(#tasir-horizontal-compact-short-trace)" stroke-width="2.8"/>
+      <path d="M130 461C180 551 204 604 280 638C404 694 552 615 692 555C726 541 749 540 771 540" stroke="url(#tasir-horizontal-compact-short-trace)" stroke-width="1.8" opacity=".83"/>
+      </g>
+      <g clip-path="url(#tasir-horizontal-compact-short-right-clip)">
+      <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663" stroke="#A9CBFF" stroke-width="7" stroke-opacity=".22"/>
+      <path d="M786 542C867 557 964 503 1057 481C1193 447 1307 530 1437 663" stroke="url(#tasir-horizontal-compact-short-trace)" stroke-width="2.8"/>
+      </g>
+    </g>
+    <g id="tasir-horizontal-compact-short-verification-focus">
+      <ellipse cx="772" cy="534" rx="37" ry="11.2" fill="#D9EAFF" fill-opacity=".25"/>
+      <ellipse cx="772" cy="534" rx="32.5" ry="8.6" fill="url(#tasir-horizontal-compact-short-focus)" stroke="#F7FBFF" stroke-width="2.6"/>
+      <path d="M746 534C756 529 784 529 798 534" fill="none" stroke="#FFFFFF" stroke-width="1.1" stroke-opacity=".7"/>
+    </g>
+  </g></g>
+<g id="tasir-horizontal-compact-short-headline-outlines" class="lettering-primary" aria-label="TASIR Group" fill="#314563" transform="translate(376.488 138.420) scale(1.000000 -1.000000)"><path d="M21.376 0.000L15.040 0.000L15.040 39.744L0.512 39.744L0.512 45.312L35.904 45.312L35.904 39.744L21.376 39.744ZM40.186 0.000L33.146 0.000L52.794 45.312L58.554 45.312L78.010 0.000L70.842 0.000L66.234 11.136L44.730 11.136ZM46.970 16.704L63.930 16.704L55.482 37.952ZM106.612 36.928Q105.268 38.784 102.964 39.968Q100.660 41.152 97.780 41.152Q96.244 41.152 94.676 40.736Q93.108 40.320 91.828 39.392Q90.548 38.464 89.748 37.088Q88.948 35.712 88.948 33.792Q88.948 31.936 89.684 30.688Q90.420 29.440 91.668 28.576Q92.916 27.712 94.612 27.104Q96.308 26.496 98.228 25.856Q100.532 25.152 102.900 24.256Q105.268 23.360 107.188 21.888Q109.108 20.416 110.324 18.208Q111.540 16.000 111.540 12.608Q111.540 9.088 110.228 6.496Q108.916 3.904 106.740 2.208Q104.564 0.512 101.716 -0.320Q98.868 -1.152 95.860 -1.152Q91.572 -1.152 87.572 0.512Q83.572 2.176 80.948 5.440L85.876 9.600Q87.476 7.232 90.164 5.760Q92.852 4.288 95.988 4.288Q97.588 4.288 99.188 4.736Q100.788 5.184 102.100 6.144Q103.412 7.104 104.244 8.544Q105.076 9.984 105.076 12.032Q105.076 14.080 104.212 15.456Q103.348 16.832 101.876 17.792Q100.404 18.752 98.452 19.424Q96.500 20.096 94.324 20.800Q92.148 21.440 90.036 22.368Q87.924 23.296 86.260 24.736Q84.596 26.176 83.572 28.288Q82.548 30.400 82.548 33.536Q82.548 36.928 83.924 39.360Q85.300 41.792 87.508 43.392Q89.716 44.992 92.500 45.728Q95.284 46.464 98.100 46.464Q102.068 46.464 105.524 45.056Q108.980 43.648 111.092 41.280ZM127.086 0.000L120.750 0.000L120.750 45.312L127.086 45.312ZM144.680 0.000L138.344 0.000L138.344 45.312L152.872 45.312Q156.136 45.312 159.080 44.640Q162.024 43.968 164.232 42.496Q166.440 41.024 167.720 38.624Q169.000 36.224 169.000 32.768Q169.000 27.776 165.928 24.704Q162.856 21.632 157.992 20.800L170.664 0.000L162.984 0.000L151.464 20.160L144.680 20.160ZM144.680 25.472L151.976 25.472Q154.216 25.472 156.136 25.856Q158.056 26.240 159.496 27.104Q160.936 27.968 161.768 29.344Q162.600 30.720 162.600 32.768Q162.600 34.816 161.768 36.192Q160.936 37.568 159.560 38.400Q158.184 39.232 156.328 39.584Q154.472 39.936 152.424 39.936L144.680 39.936ZM228.316 35.968Q226.268 38.208 223.100 39.552Q219.932 40.896 216.028 40.896Q212.060 40.896 208.860 39.456Q205.660 38.016 203.420 35.520Q201.180 33.024 199.964 29.728Q198.748 26.432 198.748 22.720Q198.748 18.944 199.964 15.616Q201.180 12.288 203.420 9.824Q205.660 7.360 208.924 5.952Q212.188 4.544 216.220 4.544Q219.420 4.544 222.108 5.120Q224.796 5.696 226.780 6.784L226.780 19.392L216.732 19.392L216.732 24.768L233.052 24.768L233.052 2.816Q229.468 0.896 225.244 -0.128Q221.020 -1.152 216.028 -1.152Q210.716 -1.152 206.268 0.608Q201.820 2.368 198.620 5.536Q195.420 8.704 193.628 13.088Q191.836 17.472 191.836 22.720Q191.836 28.032 193.660 32.416Q195.484 36.800 198.716 39.904Q201.948 43.008 206.364 44.736Q210.780 46.464 215.964 46.464Q221.404 46.464 225.660 44.864Q229.916 43.264 232.732 40.576ZM243.862 23.808Q243.862 25.024 243.798 26.944Q243.734 28.864 243.606 30.336L249.302 30.336Q249.430 29.184 249.494 27.680Q249.558 26.176 249.558 25.216L249.750 25.216Q251.030 27.904 253.494 29.536Q255.958 31.168 259.030 31.168Q260.438 31.168 261.398 30.912L261.142 25.344Q259.862 25.664 258.390 25.664Q256.214 25.664 254.614 24.864Q253.014 24.064 251.958 22.720Q250.902 21.376 250.390 19.616Q249.878 17.856 249.878 15.936L249.878 0.000L243.862 0.000ZM296.848 15.232Q296.848 11.712 295.600 8.768Q294.352 5.824 292.144 3.680Q289.936 1.536 286.928 0.352Q283.920 -0.832 280.464 -0.832Q277.008 -0.832 274.000 0.352Q270.992 1.536 268.816 3.680Q266.640 5.824 265.392 8.768Q264.144 11.712 264.144 15.232Q264.144 18.752 265.392 21.664Q266.640 24.576 268.816 26.688Q270.992 28.800 274.000 29.984Q277.008 31.168 280.464 31.168Q283.920 31.168 286.928 29.984Q289.936 28.800 292.144 26.688Q294.352 24.576 295.600 21.664Q296.848 18.752 296.848 15.232ZM290.576 15.232Q290.576 17.408 289.904 19.392Q289.232 21.376 287.952 22.880Q286.672 24.384 284.784 25.280Q282.896 26.176 280.464 26.176Q278.032 26.176 276.144 25.280Q274.256 24.384 272.976 22.880Q271.696 21.376 271.024 19.392Q270.352 17.408 270.352 15.232Q270.352 13.056 271.024 11.072Q271.696 9.088 272.976 7.552Q274.256 6.016 276.144 5.120Q278.032 4.224 280.464 4.224Q282.896 4.224 284.784 5.120Q286.672 6.016 287.952 7.552Q289.232 9.088 289.904 11.072Q290.576 13.056 290.576 15.232ZM326.794 0.000Q326.666 1.152 326.602 2.592Q326.538 4.032 326.538 4.992L326.410 4.992Q325.258 2.560 322.538 0.864Q319.818 -0.832 316.490 -0.832Q313.546 -0.832 311.402 0.128Q309.258 1.088 307.882 2.784Q306.506 4.480 305.834 6.720Q305.162 8.960 305.162 11.520L305.162 30.336L311.178 30.336L311.178 13.568Q311.178 11.712 311.466 10.016Q311.754 8.320 312.522 7.040Q313.290 5.760 314.634 4.992Q315.978 4.224 318.090 4.224Q321.738 4.224 323.978 6.944Q326.218 9.664 326.218 14.208L326.218 30.336L332.234 30.336L332.234 6.528Q332.234 5.312 332.298 3.392Q332.362 1.472 332.490 0.000ZM348.932 -15.360L342.916 -15.360L342.916 30.336L348.804 30.336L348.804 25.600L348.996 25.600Q350.468 28.032 353.316 29.600Q356.164 31.168 359.940 31.168Q363.332 31.168 366.116 29.952Q368.900 28.736 370.916 26.560Q372.932 24.384 374.020 21.472Q375.108 18.560 375.108 15.232Q375.108 11.904 374.020 8.960Q372.932 6.016 370.948 3.840Q368.964 1.664 366.148 0.416Q363.332 -0.832 359.812 -0.832Q356.548 -0.832 353.668 0.576Q350.788 1.984 349.124 4.544L348.932 4.544ZM368.900 15.232Q368.900 17.344 368.260 19.328Q367.620 21.312 366.340 22.848Q365.060 24.384 363.172 25.280Q361.284 26.176 358.788 26.176Q356.484 26.176 354.596 25.280Q352.708 24.384 351.364 22.848Q350.020 21.312 349.284 19.328Q348.548 17.344 348.548 15.168Q348.548 12.992 349.284 11.008Q350.020 9.024 351.364 7.520Q352.708 6.016 354.596 5.120Q356.484 4.224 358.788 4.224Q361.284 4.224 363.172 5.152Q365.060 6.080 366.340 7.616Q367.620 9.152 368.260 11.136Q368.900 13.120 368.900 15.232Z"/></g>
+</svg>
